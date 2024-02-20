@@ -38,6 +38,7 @@ $(document).ready(function(){
         autoplaySpeed: 5000,
         speed: 1000,
     });
+    $(".chosen-select").chosen({disable_search_threshold: 100});
     // 
     $(".itsearchhead .scicon").click(function(){
         if(!$(this).parents(".itsearchhead").hasClass("active")){

@@ -1,6 +1,18 @@
 /* <=== vhprojectpg ===> */
 .vhprojectpg{
-    padding: 50px 0 70px;
+    padding: 40px 0 70px;
+}
+.hpprojectmm .mmtitle{
+    margin-bottom: 40px;
+    color: #151535;
+}
+.hpprojectmm .mmtitle, .hpprojectmm .mmtitle h1, .hpprojectmm .mmtitle h2{
+    font-size: 120px;
+    line-height: 120px;
+    font-weight: 400;
+}
+.hpprojectmm .mmlist{
+    margin-bottom: 20px;
 }
 .hpprojectmm .mmgrip{
     display: flex;
@@ -15,8 +27,11 @@
 .itprojectmm .thumb{
     margin-bottom: 15px;
 }
+.itprojectmm .thumb a{
+    border-radius: 16px;
+}
 .itprojectmm .dstitle{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .itprojectmm .dstitle, .itprojectmm .dstitle h3{
     font-size: 20px;
@@ -24,11 +39,11 @@
     font-weight: 500;
 }
 .itprojectmm .dstitle, .itprojectmm .dstitle a{
-    color: rgba(21, 21, 53, 1);
+    color: #151535;
 }
 .itprojectmm .dsconts{
     font-size: 16px;
-    line-height: 26px;
+    line-height: 24px;
     font-weight: 400;
     max-height: calc(26px * 3);
     overflow: hidden;
@@ -41,23 +56,13 @@
 
 /* <=== vhprojectlv ===> */
 .vhprojectlv{
-    padding: 70px 0 5px;
-    background-color: #f7f7ff;
+    padding: 80px 0 5px;
 }
 /* <=== vhprojectlv ===> */
 
 /* <=== hpprojecthh ===> */
 .hpprojecthh{
-    margin-bottom: 20px;
-}
-.hpprojecthh .hhtitle{
-    margin-bottom: 40px;
-    color: rgba(21, 21, 53, 1);
-}
-.hpprojecthh .hhtitle, .hpprojecthh .hhtitle h1, .hpprojecthh .hhtitle h2{
-    font-size: 48px;
-    line-height: 77px;
-    font-weight: 500;
+    margin-bottom: 80px;
 }
 .tpprojectha .hhgrip{
     display: flex;
@@ -68,10 +73,10 @@
     padding: 0 15px;
 }
 .tpprojectha .hhgrip .lcol{
-    width: 41.609%;
+    width: 41.66667%;
 }
 .tpprojectha .hhgrip .rcol{
-    width: calc(100% - 41.609% );
+    width: calc(100% - 41.66667% );
 }
 .tpprojectha .hainfos{
     color: rgba(21, 21, 53, 1);
@@ -95,7 +100,7 @@
 }
 .tpprojectha .iconts li{
     padding: 0 10px;
-    width: 33.3333%;
+    width: 100%;
     margin-bottom: 20px;
 }
 .tpprojectha .iconts li .tm{
@@ -104,31 +109,118 @@
 .tpprojectha .iconts li .th{
     font-weight: 500;
 }
+.tpprojectha .hatitle{
+    margin-bottom: 30px;
+    color: #151535;
+    text-transform: uppercase;
+}
+.tpprojectha .hatitle, .tpprojectha .hatitle h1, .tpprojectha .hatitle h2{
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 500;
+}
 .tpprojectha .haconts{
-    color: rgba(21, 21, 53, 1);
+    color: #151535;
     font-size: 16px;
     line-height: 26px;
+}
+.tpprojectha .ctdecss p{
+    padding: 0;
+}
+.tpprojectha .dsview{
+    margin-top: 20px;
+}
+.vhviewtt > div{
+    display: none;
+}
+.vhviewtt a{
+    color: #151535;
+    font-size: 16px;
+    line-height: 26px;
+    display: inline-block;
+    padding-left: 40px;
+    position: relative;
+}
+.vhviewtt a::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 26px;
+    height: 26px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.vhviewtt .showview a::before{
+    background-image: url('../images/project/viewp.png');
+}
+.vhviewtt .hideview a::before{
+    background-image: url('../images/project/viewm.png');
 }
 /* <=== hpprojecthh ===> */
 
 /* <=== hpprojectbb ===> */
-.hpprojectbb .bbrow{
-    padding: 25px 0;
-    border-top: 2px solid rgba(204, 204, 255, 1);
+.hpprojectbb{
+    margin-bottom: 100px;
 }
-.itprojectbb .bbgrip{
+.hpprojectbb .bbgrip{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px;
+    margin: 0 -12.5px;
 }
-.itprojectbb .bbgrip > div{
-    padding: 0 15px;
+.hpprojectbb .bbgrip > div{
+    padding: 0 12.5px;
+    margin-bottom: 15px;
 }
-.itprojectbb .bbgrip .lcol{
-    width: 41.609%;
+.hpprojectbb .bbgrip .mcol{
+    width: 100%;
 }
-.itprojectbb .bbgrip .rcol{
-    width: calc(100% - 41.609% );
+.hpprojectbb .bbgrip .hcol{
+    width: 50%;
+}
+.hpprojectbb .bbthumb{
+    border-radius: 16px;
+    overflow: hidden;
+}
+.hpprojectbb .bbthumb img{
+    width: 100%;
+}
+.hpprojectbb .bbvideo{
+    border-radius: 16px;
+    overflow: hidden;
+}
+.hpprojectbb .bbvideo a{
+    display: block;
+    position: relative;
+}
+.hpprojectbb .bbvideo a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #151535;
+    opacity: 0.64;
+    z-index: 1;
+    pointer-events: none;
+}
+.hpprojectbb .bbvideo a img{
+    width: 100%;
+}
+.hpprojectbb .bbvideo a .iplay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    background-image: url('../images/project/vdicon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
 }
 .itprojectbb .decss{
     position: relative;
@@ -205,6 +297,148 @@
 }
 /* <=== hpprojectbb ===> */
 
+.tpprojectmm .mmsearch{
+    margin-bottom: 40px;
+}
+.tpprojectmm .mmsearch .scgrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12.5px;
+}
+.tpprojectmm .mmsearch .scgrip > div{
+    padding: 0 12.5px;
+    width: 25%;
+}
+.tpprojectmm .mmsearch .scgroup label{
+    display: block;
+    font-size: 16px;
+}
+.tpprojectmm .mmsearch .scgroup input, .tpprojectmm .mmsearch .scgroup select{
+    width: 100%;
+    height: 45px;
+    border: none;
+    padding: 0 20px;
+    background-color: #f5f5f5;
+}
+
+/* <=== vhcaptsipg ===> */
+.vhcaptsipg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 0;
+    z-index: 1;
+}
+.hpcaptsipg{
+    color: #fff;
+    text-transform: uppercase;
+}
+.hpcaptsipg, .hpcaptsipg h1, .hpcaptsipg h2{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+/* <=== vhcaptsipg ===> */
+
+.hpprojecttt{
+    margin-bottom: 150px;
+}
+.hpprojecttt .tttitle{
+    margin-bottom: 30px;
+    color: #151535;
+}
+.hpprojecttt .tttitle, .hpprojecttt .tttitle h2{
+    font-size: 48px;
+    line-height: 77px;
+    font-weight: 500;
+}
+.slprojecttt .slick-list{
+    margin: 0 -12.5px;
+}
+.slprojecttt .slick-list .slick-slide{
+    padding: 0 12.5px;
+}
+.itprojecttt .thumb{
+    padding-top: 133.434%;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.itprojecttt .thumb img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.itprojecttt .dstitle{
+    margin-bottom: 10px;
+}
+.itprojecttt .dstitle, .itprojecttt .dstitle h3{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.itprojecttt .dstitle, .itprojecttt .dstitle a{
+    color: #151535;
+}
+.itprojecttt .dsconts{
+    color: #151535;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.hpprojectnn{
+    margin-bottom: 20px;
+}
+.hpprojectnn .nntitle{
+    margin-bottom: 25px;
+}
+.hpprojectnn .nntitle .ttgrip{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 0 -5px;
+}
+.hpprojectnn .nntitle .ttgrip > div{
+    padding: 0 5px;
+    margin-bottom: 5px;
+}
+.hpprojectnn .nntitle .ttitle{
+    color: #151535;
+}
+.hpprojectnn .nntitle .ttitle, .hpprojectnn .nntitle .ttitle h2{
+    font-size: 48px;
+    line-height: 77px;
+    font-weight: 500;
+}
+.hpprojectnn .nntitle .tviews a{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 26px;
+    border: 1px solid #7A7A7A;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+.hpprojectnn .nntitle .tviews a:hover{
+    background-color: #151535;
+    color: #fff;
+}
+.slprojectnn .slick-list{
+    margin: 0 -12.5px;
+}
+.slprojectnn .slick-list .slick-slide{
+    padding: 0 12.5px;
+}
+.slprojectnn .itprojectmm .thumb a{
+    border-radius: 0;
+}
 @media all and (max-width: 1200px){
 
 }
@@ -212,6 +446,14 @@
     /* <=== vhprojectpg ===> */
     .vhprojectpg{
         padding: 30px 0 50px;
+    }
+    .hpprojectmm .mmtitle{
+        margin-bottom: 30px;
+        color: #151535;
+    }
+    .hpprojectmm .mmtitle, .hpprojectmm .mmtitle h1, .hpprojectmm .mmtitle h2{
+        font-size: 50px;
+        line-height: 60px;
     }
     .hpprojectmm .mmgrip > div{
         width: 50%;
@@ -231,13 +473,6 @@
     .vhprojectlv{
         padding: 30px 0 5px;
     }
-    .hpprojecthh .hhtitle{
-        margin-bottom: 20px;
-    }
-    .hpprojecthh .hhtitle, .hpprojecthh .hhtitle h1, .hpprojecthh .hhtitle h2{
-        font-size: 30px;
-        line-height: 45px;
-    }
     .tpprojectha .hhgrip .lcol{
         width: 100%;
     }
@@ -250,6 +485,13 @@
     }
     .itprojectbb .bbgrip .rcol{
         width: 100%;
+    }
+    .tpprojectha .hatitle{
+        margin-bottom: 20px;
+    }
+    .tpprojectha .hatitle, .tpprojectha .hatitle h1, .tpprojectha .hatitle h2{
+        font-size: 30px;
+        line-height: 45px;
     }
     .tpprojectha .haconts, .itprojectbb .dsconts{
         font-size: 14px;
@@ -266,12 +508,83 @@
         width: 500px;
     }
     /* <=== hpprojectbb ===> */
+    .tpprojectmm .mmsearch .scgrip > div{
+        width: 50%;
+    }
+
+    /* <=== vhcaptsipg ===> */
+    .vhcaptsipg{
+        padding: 15px 0;
+    }
+    .hpcaptsipg, .hpcaptsipg h1, .hpcaptsipg h2{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    /* <=== vhcaptsipg ===> */
+    .hpprojecthh{
+        margin-bottom: 40px;
+    }
+    .hpprojectbb .bbgrip{
+        margin: 0 -5px;
+    }
+    .hpprojectbb .bbgrip > div{
+        padding: 0 5px;
+        margin-bottom: 10px;
+    }
+    .hpprojectbb .bbthumb, .hpprojectbb .bbvideo{
+        border-radius: 5px;
+    }
+    .hpprojectbb{
+        margin-bottom: 40px;
+    }
+    .hpprojecttt .tttitle{
+        margin-bottom: 20px;
+    }
+    .hpprojecttt .tttitle, .hpprojecttt .tttitle h2{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .slprojecttt .slick-list{
+        margin: 0 -7px;
+    }
+    .slprojecttt .slick-list .slick-slide{
+        padding: 0 7px;
+    }
+    .itprojecttt .dstitle, .itprojecttt .dstitle h3{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .itprojecttt .dsconts{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .hpprojecttt{
+        margin-bottom: 50px;
+    }
+    .hpprojectnn .nntitle .ttitle, .hpprojectnn .nntitle .ttitle h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .hpprojectnn .nntitle{
+        margin-bottom: 15px;
+    }
+    .hpprojectnn .nntitle .tviews a{
+        font-size: 12px;
+        line-height: 22px;
+        padding: 6px 10px
+    }
 }
 @media all and (max-width: 767px){
     .hpprojectmm .mmgrip > div{
         width: 100%;
     }
-
+    .tpprojectmm .mmsearch .scgrip{
+        margin: 0 -5px;
+    }
+    .tpprojectmm .mmsearch .scgrip > div{
+        padding: 0 5px;
+    }
     /* <=== hpprojectbb ===> */
     .slthumbs .slick-list{
         margin: 0 -8px;

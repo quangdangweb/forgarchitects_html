@@ -2403,10 +2403,10 @@
 }
 @media screen and (max-width:1350px) {
     .vhbtnslickam .slick-prev{
-        left: -15px;
+        left: -25px!important;
     }
     .vhbtnslickam .slick-next{
-        right: -15px;
+        right: -25px!important;
     }
 }
 @media all and (min-width: 991px){

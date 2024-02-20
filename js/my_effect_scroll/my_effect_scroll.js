@@ -128,8 +128,8 @@ $(document).ready(function() {
     });
     // all
     setlazy($("#vh-header, #vh-footer, .infoshome, .tpservicta .tathumb, .vhbannerpg"),'fadeIn','0.01');
-    setlazy($(".hpservicbb .bbttile, .hpservicbb .bbttile, .hpservicnn .nnttile, .tpserviczz .zzttile, .hpcaptsipg"),'fadeIn','0.1');
-    setlazy($(".slsolutiohb, .itserviceshh, .tpserviceshh .hhview, .itnewshh, .tpnewshh .hhview, .tpservicss, .hpinfoshh > div >div"),'fadeIn','0.2');
+    setlazy($(".hpservicbb .bbttile, .hpservicbb .bbttile, .hpservicnn .nnttile, .tpserviczz .zzttile, .hpcaptsipg, .hpprojectmm .mmtitle"),'fadeIn','0.1');
+    setlazy($(".slsolutiohb, .itserviceshh, .tpserviceshh .hhview, .itnewshh, .tpnewshh .hhview, .tpservicss, .hpinfoshh > div > div, .tpprojectmm .mmsearch"),'fadeIn','0.2');
     setlazy($(".vitemblock.vmm, .tpaboutam, .slaboutba, .hpaboutcc, .itaboutem, .slabouteh, .itaboutgg, .tpservichh .hhtitle"),'fadeIn','0.2');
     setlazy($(".vitemblock.vhh, .tpaboutah, .tpservichh .hhconts, .hpsolutiohh"),'fadeIn','0.3');
     setlazy($(".vitemblock.vbb"),'fadeIn','0.4');

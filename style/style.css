@@ -664,7 +664,7 @@ select{
     display: flex;
     align-items: center;
     align-content: center;
-    border-bottom: 1px solid #DFDFF6;
+    /* border-bottom: 1px solid #DFDFF6; */
     box-shadow: 0 5px 40px 0 rgba(194, 194, 255, 0.4);
     transform: unset;
 }
@@ -692,10 +692,10 @@ select{
     padding: 0 10px;
 }
 .hpheader .grhead .lcol, .hpheader .grhead .rcol{
-    width: calc((100% - 290px) / 2);
+
 }
 .hpheader .grhead .ccol{
-    width: 290px;
+
 }
 .tpsubmnhead > ul{
     display: flex;
@@ -714,6 +714,24 @@ select{
     line-height: 25px;
     font-weight: 500;
     display: block;
+    position: relative;
+}
+.tpsubmnhead > ul > li > a::before{
+    content: '';
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background-color: #151535;
+    border-radius: 25px;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.tpsubmnhead > ul > li.current > a::before, .tpsubmnhead > ul > li:hover > a::before{
+    width: 100%;
 }
 .tpsubmnhead > ul > li.current > a, .tpsubmnhead > ul > li:hover > a{
     color: rgba(21, 21, 53, 1);
@@ -759,10 +777,10 @@ select{
     align-items: center;
     align-content: center;
     justify-content: flex-end;
-    margin: 0 -20px;
+    margin: 0 -18px;
 }
 .tptoolhead .grtool > div{
-    padding: 0 20px;
+    padding: 0 18px;
 }
 .itsearchhead .scicon{
     cursor: pointer;
@@ -944,35 +962,32 @@ select{
 /* <===== footer =====> */
 
 .vhtopfoot{
-    background: rgba(21, 21, 53, 1);
+    /* background: rgba(21, 21, 53, 1); */
     border-radius: 0 0 32px 32px;
     padding: 60px 0;
 }
 .vhtopfoot, .vhtopfoot a{
-    color: #fff;
+    /* color: #fff; */
 }
 .hptopfoot .grtop{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px;
+    margin: 0 -12.5px;
 }
 .hptopfoot .grtop > div{
-    padding: 0 15px;
+    padding: 0 12.5px;
 }
 .hptopfoot .grtop .mcol{
-    width: calc(100% - (41.959% + 16.434%));
+    width: 41.66667%;
 }
 .hptopfoot .grtop .hcol{
-    width: 16.434%;
+    width: calc(100% - (41.66667% + 25%));
 }
 .hptopfoot .grtop .bcol{
-    width: 41.959%;
+    width: 25%;
 }
 .tplogofoot{
-    /* padding-top: 100px; */
-}
-.tplogofoot .lgend{
-    max-width: 332px;
+    margin-bottom: 80px;
 }
 .tpctactfoot{
     height: 100%;
@@ -1130,7 +1145,7 @@ select{
 }
 .tplinksfoot .lktitle{
     margin-bottom: 12px;
-    /* color: rgba(21, 21, 53, 1); */
+    color: #151535;
 }
 .tplinksfoot .lktitle, .tplinksfoot .lktitle h3{
     font-size: 16px;
@@ -1142,27 +1157,74 @@ select{
 }
 .tplinksfoot .lkconts li a{
     display: inline-block;
+    color: #1A1A1A;
+}
+.tplinksfoot .lkconts li a:hover{
+    color: #151535;
+    padding-left: 2px;
 }
 .tpaddrefoot{
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.tpaddrefoot:first-child{
-    margin-top: 0;
+.tpaddrefoot{
+    max-width: 355px;
 }
 .tpaddrefoot .dcttile,
-.tpsociafoot .sctitle,
-.tpinfosfoot .iftitle,
+.tpsociafoot .sctitle{
+    margin-bottom: 12px;
+    color: #1A1A1A;
+}
+.tpinfosfoot{
+    margin-bottom: 20px;
+}
 .tpformsfoot .frtitle{
     margin-bottom: 12px;
-    /* color: rgba(21, 21, 53, 1); */
+    color: #151535;  
 }
-.tpaddrefoot .dcttile, .tpaddrefoot .dcttile h3,
-.tpsociafoot .sctitle, .tpsociafoot .sctitle h3,
-.tpinfosfoot .iftitle, .tpinfosfoot .iftitle h3,
+.tpinfosfoot .iftitle{
+    margin-bottom: 12px;
+    color: #151535;
+}
+.tpinfosfoot .iftitle, .tpinfosfoot .iftitle h3{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.tpinfosfoot .ifconts{
+    font-size: 14px;
+    line-height: 22px;
+}
+.tpinfosfoot .ifconts li{
+    margin-bottom: 5px;
+}
+.tpinfosfoot .ifconts li:last-child{
+    margin-bottom: 0;
+}
+.tpaddrefoot .dcttile.vcolor{
+    color: #151535;
+}
+.tpsociafoot .sctitle{
+    color: #151535;
+}
 .tpformsfoot .frtitle, .tpformsfoot .frtitle h3{
     font-size: 16px;
-    line-height: 22px;
+    line-height: 24px;
     font-weight: 500;
+}
+.tpsociafoot .sctitle, .tpsociafoot .sctitle h3{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.tpaddrefoot .dcttile, .tpaddrefoot .dcttile h3{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.tpaddrefoot .dcconts{
+    font-size: 14px;
+    line-height: 22px;
+    color: #1A1A1A;
 }
 .tpsociafoot .scconts ul{
     display: flex;
@@ -1178,27 +1240,30 @@ select{
 .tpsociafoot .scconts li a:hover{
     transform: translateY(-2px);
 }
+.tpformsfoot{
+    margin-bottom: 30px;
+}
 .tpformsfoot .frconts .ctpon{
     position: relative;
 }
 .tpformsfoot .frconts input{
     height: 48px;
     width: 100%;
-    border: 1px solid #fff;
+    border: 1px solid #151535;
     padding: 0 120px 0 25px;
     border-radius: 25px;
     font-size: 16px;
     background-color: transparent;
-    color: #fff;
+    color: #151535;
 }
 .tpformsfoot .frconts input::-webkit-input-placeholder {
-    color: #fff;
+    color: #6F6F6F;
 }
 .tpformsfoot .frconts input:-ms-input-placeholder {
-    color: #fff;
+    color: #6F6F6F;
 }
 .tpformsfoot .frconts input::placeholder {
-    color: #fff;
+    color: #6F6F6F;
 }
 .tpformsfoot .frconts button{
     position: absolute;
@@ -1206,8 +1271,8 @@ select{
     right: 0;
     height: 100%;
     width: 110px;
-    background-color: #fff;
-    color: rgba(21, 21, 53, 1);
+    background-color: #151535;
+    color: #fff;
     border: none;
     border-radius: 25px;
 }
@@ -1224,7 +1289,7 @@ select{
     border-top: 1px solid rgba(21, 21, 53, 0.15);
 }
 .tpbotfooth, .tpbotfooth a{
-    color: rgba(24, 24, 61, 1);
+    color: #18183D;
 }
 /* <===== footer =====> */
 
@@ -1262,6 +1327,11 @@ select{
 }
 /* <=== vhtitleal ===> */
 
+/* <=== gdmaintop ===> */
+.gdmaintop{
+    position: relative;
+}
+/* <=== gdmaintop ===> */
 @media all and (max-width: 1440px){
     /* <===== footer =====> */
     .tpbotfootm .mmgrip .bccol{
@@ -1379,10 +1449,11 @@ select{
         width: 100%;
     }
     .tplogofoot{
-        padding-top: 0;
+        margin-bottom: 30px;
+
     }
     .tplogofoot .lgend{
-        max-width: 200px;
+        max-width: 300px;
         margin: 0 auto;
     }
     .tpctactfoot .ctlinks a{
