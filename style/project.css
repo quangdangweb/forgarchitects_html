@@ -1,0 +1,287 @@
+/* <=== vhprojectpg ===> */
+.vhprojectpg{
+    padding: 50px 0 70px;
+}
+.hpprojectmm .mmgrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.hpprojectmm .mmgrip > div{
+    padding: 0 15px;
+    width: 33.33333%;
+    margin-bottom: 30px;
+}
+.itprojectmm .thumb{
+    margin-bottom: 15px;
+}
+.itprojectmm .dstitle{
+    margin-bottom: 10px;
+}
+.itprojectmm .dstitle, .itprojectmm .dstitle h3{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.itprojectmm .dstitle, .itprojectmm .dstitle a{
+    color: rgba(21, 21, 53, 1);
+}
+.itprojectmm .dsconts{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    max-height: calc(26px * 3);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+/* <=== vhprojectpg ===> */
+
+/* <=== vhprojectlv ===> */
+.vhprojectlv{
+    padding: 70px 0 5px;
+    background-color: #f7f7ff;
+}
+/* <=== vhprojectlv ===> */
+
+/* <=== hpprojecthh ===> */
+.hpprojecthh{
+    margin-bottom: 20px;
+}
+.hpprojecthh .hhtitle{
+    margin-bottom: 40px;
+    color: rgba(21, 21, 53, 1);
+}
+.hpprojecthh .hhtitle, .hpprojecthh .hhtitle h1, .hpprojecthh .hhtitle h2{
+    font-size: 48px;
+    line-height: 77px;
+    font-weight: 500;
+}
+.tpprojectha .hhgrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+} 
+.tpprojectha .hhgrip > div{
+    padding: 0 15px;
+}
+.tpprojectha .hhgrip .lcol{
+    width: 41.609%;
+}
+.tpprojectha .hhgrip .rcol{
+    width: calc(100% - 41.609% );
+}
+.tpprojectha .hainfos{
+    color: rgba(21, 21, 53, 1);
+}
+.tpprojectha .ititle{
+    margin-bottom: 20px;
+}
+.tpprojectha .ititle, .tpprojectha .ititle h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+.tpprojectha .iconts{
+    font-size: 16px;
+    line-height: 26px;
+}
+.tpprojectha .iconts ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.tpprojectha .iconts li{
+    padding: 0 10px;
+    width: 33.3333%;
+    margin-bottom: 20px;
+}
+.tpprojectha .iconts li .tm{
+    margin-bottom: 5px;
+}
+.tpprojectha .iconts li .th{
+    font-weight: 500;
+}
+.tpprojectha .haconts{
+    color: rgba(21, 21, 53, 1);
+    font-size: 16px;
+    line-height: 26px;
+}
+/* <=== hpprojecthh ===> */
+
+/* <=== hpprojectbb ===> */
+.hpprojectbb .bbrow{
+    padding: 25px 0;
+    border-top: 2px solid rgba(204, 204, 255, 1);
+}
+.itprojectbb .bbgrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.itprojectbb .bbgrip > div{
+    padding: 0 15px;
+}
+.itprojectbb .bbgrip .lcol{
+    width: 41.609%;
+}
+.itprojectbb .bbgrip .rcol{
+    width: calc(100% - 41.609% );
+}
+.itprojectbb .decss{
+    position: relative;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.itprojectbb .decss::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -30px;
+    height: 100%;
+    width: 10000px;
+    background-color: #f7f7ff;
+    z-index: -1;
+    pointer-events: none;
+}
+.itprojectbb .dscen{
+    width: 100%;
+}
+.itprojectbb .dstitle{
+    margin-bottom: 20px;
+    color: rgba(21, 21, 53, 1);
+}
+.itprojectbb .dstitle, .itprojectbb .dstitle h3{
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+}
+.itprojectbb .dsconts{
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(21, 21, 53, 1);
+}
+.itprojectbb .dsconts li{
+    padding-left: 26px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.itprojectbb .dsconts li:last-child{
+    margin-bottom: 0;
+}
+.itprojectbb .dsconts li::before{
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    background-color: rgba(21, 21, 53, 1);
+}
+.slthumbs .slick-list{
+    margin: 0 -12px;
+    overflow: unset;
+}
+.slthumbs .slick-slide{
+    padding: 0 12px;
+}
+.slthumbs .slick-current .thumb{
+    opacity: 1;
+}
+.slthumbs .thumb{
+    width: 569px;
+    overflow: hidden;
+    border-radius: 16px;
+    opacity: 0.36;
+}
+.slthumbs .thumb img{
+    width: 100%;
+}
+/* <=== hpprojectbb ===> */
+
+@media all and (max-width: 1200px){
+
+}
+@media all and (max-width: 991px){
+    /* <=== vhprojectpg ===> */
+    .vhprojectpg{
+        padding: 30px 0 50px;
+    }
+    .hpprojectmm .mmgrip > div{
+        width: 50%;
+    }
+    .itprojectmm .dstitle, .itprojectmm .dstitle h3{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .itprojectmm .dsconts{
+        font-size: 14px;
+        line-height: 22px;
+        max-height: calc(22px * 3);
+    }
+    /* <=== vhprojectpg ===> */
+
+    /* <=== hpprojectbb ===> */
+    .vhprojectlv{
+        padding: 30px 0 5px;
+    }
+    .hpprojecthh .hhtitle{
+        margin-bottom: 20px;
+    }
+    .hpprojecthh .hhtitle, .hpprojecthh .hhtitle h1, .hpprojecthh .hhtitle h2{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .tpprojectha .hhgrip .lcol{
+        width: 100%;
+    }
+    .tpprojectha .hhgrip .rcol{
+        width: 100%;
+    }
+    .itprojectbb .bbgrip .lcol{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .itprojectbb .bbgrip .rcol{
+        width: 100%;
+    }
+    .tpprojectha .haconts, .itprojectbb .dsconts{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .itprojectbb .dstitle{
+        margin-bottom: 10px;
+    }
+    .itprojectbb .dstitle, .itprojectbb .dstitle h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .slthumbs .thumb{
+        width: 500px;
+    }
+    /* <=== hpprojectbb ===> */
+}
+@media all and (max-width: 767px){
+    .hpprojectmm .mmgrip > div{
+        width: 100%;
+    }
+
+    /* <=== hpprojectbb ===> */
+    .slthumbs .slick-list{
+        margin: 0 -8px;
+    }
+    .slthumbs .slick-slide{
+        padding: 0 8px;
+    }
+    .slthumbs .thumb{
+        width: 300px;
+        border-radius: 8px;
+    }
+    /* <=== hpprojectbb ===> */
+}

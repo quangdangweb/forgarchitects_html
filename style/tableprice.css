@@ -1,0 +1,9 @@
+/* .reportHome{
+    padding: 0;
+}
+.reportHome::before, .reportHome::after{
+    display: none;
+}
+.reportHome .titleHome h2{
+    color: #333333;
+} */

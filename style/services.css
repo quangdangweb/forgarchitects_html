@@ -1,0 +1,576 @@
+.vhservicpg{
+    background-color: #f7f7ff;
+}
+/* <=== hpservicmm ===> */
+.slservicmm .slick-list{
+    margin: 0 -3px;
+}
+.slservicmm .slick-slide{
+    padding: 0 3px;
+}
+.itservicmm img{
+    width: 100%;
+}
+/* <=== hpservicmm ===> */
+
+/* <=== hpservichh ===> */
+.hpservichh{
+    background-color: #151535;
+    padding: 70px 0;
+}
+.hpservichh, .hpservichh a{
+    color: #fff;
+}
+.tpservichh .hhgrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.tpservichh .hhgrip > div{
+    padding: 0 15px;
+}
+.tpservichh .hhgrip .lcol{
+    width: 55%;
+}
+.tpservichh .hhgrip .rcol{
+    width: 45%;
+}
+.tpservichh .hhtitle, .tpservichh .hhtitle h2{
+    font-size: 48px;
+    line-height: 77px;
+    font-weight: 500;
+}
+.tpservichh .hhconts{
+    font-size: 16px;
+    line-height: 26px;
+} 
+/* <=== hpservichh ===> */
+
+/* <=== hpservicbb ===> */
+.hpservicbb{
+
+    padding: 70px 0;
+}
+.hpservicbb .bbttile{
+    margin-bottom: 20px;
+    color: #151535;
+    text-align: center;
+}
+.hpservicbb .bbttile, .hpservicbb .bbttile h2{
+    font-size: 48px;
+    line-height: 77px;
+    font-weight: 500;
+}
+.tpservicba{
+    margin-bottom: 50px;
+}
+.tpservicba .bagrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+.tpservicba .bagrip > div{
+    padding: 0 12px;
+    width: 50%;
+    margin-bottom: 24px;
+}
+.itservicba{
+    box-shadow: 5px 0 40px 0 rgba(194, 194, 255, 0.4);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 25px;
+    height: 100%;
+}
+.itservicba .vvnumbr{
+    color: #151535;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.itservicba .vvtitle{
+    margin-bottom: 10px;
+}
+.itservicba .vvtitle, .itservicba .vvtitle h3{
+    color: #151535;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+}
+.itservicba .vvconts{
+    font-size: 16px;
+    line-height: 26px;
+    color: #151535;
+}
+.itservicba .vvconts li{
+    padding-left: 26px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.itservicba .vvconts li::before{
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    background-color: rgba(21, 21, 53, 1);
+}
+.tpservicbb .vvgrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+    padding-top: 70px;
+}
+.tpservicbb .vvgrip > div{
+    padding: 0 20px;
+    width: 25%;
+    margin-bottom: 40px;
+}
+.itservicbb{
+    position: relative;
+}
+.itservicbb .bbgrip{
+    display: flex;
+    flex-wrap: wrap;
+}
+.itservicbb .bbgrip > div{
+    width: 100%;
+}
+.itservicbb .thumb{
+    padding-top: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.itservicbb .thumb img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.itservicbb .decss{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 0 40px 0 rgba(194, 194, 255, 0.4);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #151535;
+}
+.itservicbb .dsnum{
+    margin-right: 12px;
+    padding-right: 12px;
+    border-right: 1px solid #CCCCFF;
+}
+.itservicbb .conts{
+    color: #151535;
+    font-size: 16px;
+    line-height: 26px;
+}
+.itservicbb.vmm .mcol, .itservicbb.vhh .mcol, .itservicbb.vmm .hcol, .itservicbb.vhh .hcol{
+    margin-bottom: 20px;
+}
+.itservicbb.vhh, .itservicbb.vbb{
+    margin-top: -70px;
+}
+.itservicbb.vbb .hcol, .itservicbb.vtt .bcol, .itservicbb.vtt .hcol, .itservicbb.vbb .bcol{
+    margin-bottom: 20px;
+}
+.itservicbb.vbb .hcol, .itservicbb.vtt .hcol{
+    order: 1;
+}
+.itservicbb.vtt .bcol, .itservicbb.vbb .bcol{
+    order: 2;
+}
+.itservicbb.vtt .mcol, .itservicbb.vbb .mcol{
+    order: 3;
+}
+/* <=== hpservicbb ===> */
+
+/* <=== hpservictt ===> */
+.hpservictt{
+    padding-bottom: 50px;
+}
+.tpservicta{
+    position: relative;
+}
+.tpservicta .tathumb img{
+    width: 100%;
+}
+.tpservicta .tadecss{
+    text-align: center;
+    position: absolute;
+    bottom: 120px;
+    left: 0;
+    width: 100%;
+    padding: 0 10px;
+    z-index: 1;
+    color: #fff;
+}
+.tpservicta .tadecss, .tpservicta .tadecss h2{
+    font-size: 48px;
+    line-height: 77px;
+    font-weight: 500;
+}
+.tpservictb{
+    position: relative;
+    margin-top: -90px;
+    z-index: 2;
+}
+.tpservictb .tbgrip{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -12px;
+}
+.tpservictb .tbgrip > div{
+    padding: 0 12px;
+    width: 33.3333%;
+    margin-bottom: 20px;
+}
+.itservictb{
+    padding: 30px 20px 30px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 0 40px 0 rgba(194, 194, 255, 0.4);
+    text-align: center;
+    color: #151535;
+}
+.itservictb .vvicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.itservictb .vvicon img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.itservictb .vvtitle{
+    margin-bottom: 10px;
+}
+.itservictb .vvtitle, .itservictb .vvtitle h3{
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+}
+.itservictb .vvconts{
+    font-size: 16px;
+    line-height: 26px;
+}
+/* <=== hpservictt ===> */
+
+/* <=== hpservicnn ===> */
+.hpservicnn{
+    padding: 30px 0 60px;
+}
+.hpservicnn .nnttile{
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    color: #151535;
+}
+.hpservicnn .nnttile, .hpservicnn .nnttile h2{
+    font-size: 48px;
+    line-height: 77px;
+    font-weight: 500;
+}
+.hpservicnn .nngrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+.hpservicnn .nngrip > div{
+    padding: 0 20px;
+    width: 33.3333%;
+}
+.itservicnn .thumb{
+    /* padding-top: 100%;
+    position: relative; */
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.itservicnn .thumb img{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    /* height: 100%;
+    object-fit: cover; */
+}
+.itservicnn .decss{
+    text-align: center;
+    color: #151535;
+}
+.itservicnn .dstitle{
+    margin-bottom: 10px;
+}
+.itservicnn .dstitle, .itservicnn .dstitle h3{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+.itservicnn .dstends{
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 465px;
+    margin: 0 auto;
+}
+.slservicnn{
+    position: relative;
+    transition: ease-out;
+}
+.slservicnn .slick-list{
+    margin: 0 -12px;
+    overflow: unset;
+}
+.slservicnn .slick-slide{
+    padding: 0 12px;
+}
+/* <=== hpservicnn ===> */
+
+/* <=== hpservicss ===> */
+.hpservicss{
+    padding: 30px 0 40px;
+}
+.tpservicss{
+    background-color: #F0F0FF;
+    border-radius: 20px;
+    padding: 80px 50px 60px;
+}
+.tpservicss .ssttile{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #151535;
+}
+.tpservicss .ssttile, .tpservicss .ssttile h2{
+    font-size: 48px;
+    line-height: 77px;
+    font-weight: 500;
+}
+/* <=== hpservicss ===> */
+
+/* <=== hpserviczz ===> */
+.hpserviczz{
+    padding: 30px 0 60px;
+}
+.tpserviczz .zzttile{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #151535;
+}
+.tpserviczz .zzttile, .tpserviczz .zzttile h2{
+    font-size: 48px;
+    line-height: 77px;
+    font-weight: 500;
+}
+.tpserviczz .zzgrip{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -15px;
+}
+.tpserviczz .zzgrip > div{
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+/* <=== hpserviczz ===> */
+
+@media all and (max-width: 1200px){
+
+}
+@media all and (max-width: 991px){
+    /* <=== hpservichh ===> */
+    .hpservichh{
+        padding: 30px 0 40px;
+    }
+    .tpservichh .hhgrip .lcol{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .tpservichh .hhgrip .rcol{
+        width: 100%;
+    }
+    .tpservichh .hhtitle, .tpservichh .hhtitle h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .tpservichh .hhconts{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    /* <=== hpservichh ===> */
+
+    /* <=== hpservicbb ===> */
+    .hpservicbb{
+        padding: 30px 0 40px;
+    }
+    .hpservicbb .bbttile, .hpservicbb .bbttile h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .tpservicba .bagrip > div{
+        width: 100%;
+    }
+    .itservicba{
+        padding: 15px 20px 20px;
+    }
+    .itservicba .vvnumbr{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .itservicba .vvtitle, .itservicba .vvtitle h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .itservicba .vvconts{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .tpservicba{
+        margin-bottom: 30px;
+    }
+    .tpservicbb .vvgrip > div{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .tpservicbb .vvgrip{
+        padding-top: 0;
+    }
+    .itservicbb .bbgrip > div{
+        order: unset!important;
+        margin-bottom: 20px!important;
+    }
+    .itservicbb .bbgrip > div:last-child{
+        margin-bottom: 0!important;
+    }
+    .itservicbb.vhh, .itservicbb.vbb{
+        margin-top: 0;
+    }
+    .itservicbb .decss{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .itservicbb .conts{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    /* <=== hpservicbb ===> */
+    
+
+    /* <=== hpservictt ===> */
+    .tpservicta .tadecss{
+        bottom: 40px;
+    }
+    .tpservicta .tadecss, .tpservicta .tadecss h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .tpservictb{
+        margin-top: 30px;
+    }
+    .itservictb{
+        padding: 20px 15px;
+    }
+    .itservictb .vvtitle, .itservictb .vvtitle h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .itservictb .vvconts{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    /* <=== hpservictt ===> */
+
+
+    /* <=== hpservicnn ===> */
+    .hpservicnn{
+        padding: 20px 0 40px;
+    }
+    .hpservicnn .nnttile, .hpservicnn .nnttile h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .itservicnn .dstitle, .itservicnn .dstitle h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .itservicnn .dstends{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .hpservicnn .nngrip{
+        padding: 0 15px;
+    }
+    .hpservicnn .nngrip > div{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .hpservicnn .nngrip > div:last-child{
+        margin-bottom: 0;
+    }
+    /* <=== hpservicnn ===> */
+
+    /* <=== hpservicss ===> */
+    .hpservicss{
+        padding: 20px 0 30px;
+    }
+    .tpservicss{
+        padding: 30px 10px;
+    }
+    .tpservicss .ssttile, .tpservicss .ssttile h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    /* <=== hpservicss ===> */
+    
+    /* <=== hpserviczz ===> */
+    .hpserviczz{
+        padding: 25px 0 50px;
+    }
+    .tpserviczz .zzttile, .tpserviczz .zzttile h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .tpserviczz .zzgrip{
+        margin: 0 -10px;
+    }
+    .tpserviczz .zzgrip > div{
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+    /* <=== hpserviczz ===> */
+}
+@media all and (max-width: 767px){
+    /* <=== hpservicbb ===> */
+    .tpservicbb .vvgrip > div{
+        width: 100%;
+    }
+    /* <=== hpservicbb ===> */
+
+    /* <=== hpservictt ===> */
+    .tpservictb .tbgrip > div{
+        width: 100%;
+    }
+    /* <=== hpservictt ===> */
+
+    /* <=== hpserviczz ===> */
+    .tpserviczz .zzgrip > div{
+        max-width: 50%;
+    }
+    /* <=== hpserviczz ===> */
+}

@@ -1,0 +1,1109 @@
+/* <=== vhaboutpg ===> */
+.vhaboutpg{
+    background-color: #f7f7ff;
+    padding-bottom: 1px;
+}
+.breadcrumb{
+    background-color: #f7f7ff;
+    box-shadow: none;
+}
+/* <=== vhaboutpg ===> */
+
+/* <=== hpaboutaa ===> */
+.hpaboutaa{
+    margin-bottom: 100px;
+}
+.hpaboutaa .aagrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.hpaboutaa .aagrip > div{
+    padding: 0 15px;
+    width: 50%;
+}
+.tpaboutam .amtitle{
+    max-width: 700.5px;
+    margin-left: auto;
+    padding: 20px 15px 30px;
+    color: #151535;
+}
+.tpaboutam .amtitle, .tpaboutam .amtitle h1{
+    font-size: 64px;
+    line-height: 100px;
+    font-weight: 500;
+}
+.tpaboutam .amimges img{
+    width: 100%;
+}
+.tpaboutah{
+    position: relative;
+    margin-top: -41px;
+    z-index: 2;
+}
+.tpaboutah .ahimges{
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.tpaboutah .ahimges img{
+    width: 100%;
+}
+.tpaboutah .ahdecss{
+    max-width: 700.5px;
+    padding-left: 80px;
+    padding-right: 15px;
+    color: #151535;
+}
+.tpaboutah .dstitle{
+    margin-bottom: 15px;
+}
+.tpaboutah .dstitle, .tpaboutah .dstitle h3{
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+}
+.tpaboutah .dstends{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+/* <=== hpaboutaa ===> */
+
+/* <=== hpaboutbb ===> */
+.hpaboutbb{
+    margin-bottom: 100px;
+}
+.tpaboutbb .bbtitle{
+    margin-bottom: 20px;
+    color: #151535;
+}
+.tpaboutbb .bbtitle, .tpaboutbb .bbtitle h2{
+    font-size: 48px;
+    line-height: 77px;
+    font-weight: 500;
+}
+.itaboutbb .bbgrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+.itaboutbb .bbgrip > div{
+    padding: 0 20px;
+}
+.itaboutbb .bbgrip .lcol{
+    width: 441px;
+}
+.itaboutbb .bbgrip .rcol{
+    width: calc(100% - 441px);
+}
+.itaboutbb .vvyear{
+    color: #151535;
+    font-size: 170px;
+    font-weight: 400;
+    line-height: 180px;
+    margin-bottom: 20px;
+}
+.itaboutbb .ifthumb{
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.itaboutbb .ifthumb img{
+    width: 100%;
+}
+.itaboutbb .ifdecss{
+    text-align: center;
+    color: #151535;
+}
+.itaboutbb .dstitle{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.itaboutbb .dstitle, .itaboutbb .dstitle h3{
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+}
+.itaboutbb .dsconts{
+    font-size: 16px;
+    line-height: 26px;
+}
+.itaboutbb .dstends{
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+.itaboutbb .dstends p{
+    margin-bottom: 15px;
+}
+.itaboutbb .dsimage .imgrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.itaboutbb .dsimage .imgrip > div{
+    padding: 0 10px;
+    width: 50%;
+}
+.itaboutbb .dsimage .ithumb{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.itaboutbb .dsimage .ithumb img{
+    width: 100%;
+}
+.tpaboutbb .bbconts{
+    position: relative;
+}
+.slaboutbb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: auto;
+}
+.slaboutbb .slick-track{
+    width: auto!important;
+    transform: unset!important;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.slaboutbb .slick-slide{
+    width: auto!important;
+}
+.slaboutbb .bbyear{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    position: relative;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151535;
+    cursor: pointer;
+}
+.slaboutbb .bbyear .vline{
+    width: 45px;
+    height: 1px;
+    background-color: #151535;
+    margin-left: 10px;
+}
+.slaboutbb .bbyear .vnums{
+    opacity: 0;
+    transform: translateX(40px);
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.slaboutbb .slick-current .bbyear .vnums{
+    opacity: 1;
+    transform: unset
+}
+/* <=== hpaboutbb ===> */
+
+/* <=== hpaboutcc ===> */
+.hpaboutcc{
+    background-color: #151535;
+    margin-bottom: 100px;
+}
+.hpaboutcc, .hpaboutcc {
+    color: #fff;
+}
+.tpaboutcc .vvgrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -30px;
+}
+.tpaboutcc .vvgrip > div{
+    padding: 0 30px;
+}
+.tpaboutcc .vvgrip .mcol{
+    border-right: 2px solid #CCCCFF;
+    width: 60%;
+}
+.tpaboutcc .vvgrip .hcol{
+    width: 40%;
+}
+.itaboutcc.vmm{
+    padding: 100px 0;
+    position: relative;
+}
+.itaboutcc.vmm:nth-child(1)::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: #CCCCFF;
+    right: -30px;
+    width: 100000px;
+}
+.itaboutcc.vmm .ccgrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.itaboutcc.vmm .ccgrip > div{
+    padding: 0 10px;
+}
+.itaboutcc.vmm .ccgrip .lcol{
+    width: 45%;
+}
+.itaboutcc.vmm .ccgrip .rcol{
+    width: 55%;
+}
+.itaboutcc .vvtitle, .itaboutcc .vvtitle h2{
+    font-size: 48px;
+    line-height: 77px;
+    font-weight: 500;
+}
+.itaboutcc .ctname{
+    margin-bottom: 10px;
+}
+.itaboutcc .ctname, .itaboutcc .ctname h3{
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+}
+.itaboutcc .ctdecs{
+    font-size: 16px;
+    line-height: 26px;
+}
+.itaboutcc.vhh{
+    height: 100%;
+    padding-left: 70px;
+}
+.itaboutcc.vhh .ccgrip{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.itaboutcc.vhh .ccgrip > div{
+    height: 50%;
+    width: 100%;
+}
+.itaboutcc.vhh .vvtitle{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+.itaboutcc.vhh .vvconts{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+/* <=== hpaboutcc ===> */
+
+/* <=== hpaboutdd ===> */
+.hpaboutdd{
+    margin-bottom: 70px;
+}
+.tpaboutdd .ddgrip{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -12px;
+}
+.tpaboutdd .ddgrip > div{
+    padding: 0 12px;
+    width: 25%;
+    margin-bottom: 30px;
+}
+.itaboutdd .thumb{
+    padding-top: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.itaboutdd .thumb img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.itaboutdd .decss{
+    margin: 0 15px;
+    margin-top: -15px;
+    position: relative;
+    z-index: 2;
+    color: #151535;
+    text-align: center;
+}
+.itaboutdd .dscen{
+    background-color: #fff;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-radius: 3px;
+    box-shadow: 5px 0 40px 0 rgba(194, 194, 255, 0.4);
+    min-height: 68px;
+}
+.itaboutdd .dstitle{
+    font-size: 16px;
+    line-height: 26px;
+    max-height: 52px;
+    overflow: hidden;
+    width: 100%;
+} 
+/* <=== hpaboutdd ===> */
+
+/* <=== hpaboutee ===> */
+.hpaboutee{
+    margin-bottom: 100px;
+}
+.slaboutem .slick-list{
+    margin: 0 -10px;
+}
+.slaboutem .slick-slide{
+    padding: 0 10px;
+}
+.slaboutem{
+    margin-bottom: 40px;
+}
+.itaboutem{
+    padding-top: 100%;
+    border-radius: 100%;
+    background-color: #F0F0FF;
+    position: relative;
+    border: 1px solid #DFD9FF;
+    overflow: hidden;
+    color: #151535;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.slick-current .itaboutem{
+    background-color: #151535;
+    color: #fff;
+}
+.itaboutem .emcen{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 60px;
+    text-align: center;
+}
+.itaboutem .vvicon{
+    width: 112px;
+    height: 112px;
+    border-radius: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 5px 0 40px 0 rgba(194, 194, 255, 0.4);
+}
+.itaboutem .vvicon img{
+    max-width: 70%;
+    max-height: 70%;
+}
+.itaboutem .vvcont{
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+}
+.slabouteh {
+    max-width: 656px;
+    margin: 0 auto;
+}
+.slabouteh .slick-arrow {
+    width: 72px;
+    height: 72px;
+    border: 1px solid rgba(21, 21, 53, 1);
+}
+.slabouteh .slick-prev{
+    left: -190px;
+}
+.slabouteh .slick-next{
+    right: -190px;
+}
+.itabouteh{
+    color: #32323D;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+/* <=== hpaboutee ===> */
+
+/* <=== hpaboutff ===> */
+.hpaboutff{
+    margin-bottom: 100px;
+}
+.tpaboutff{
+    background-color: #F0F0FF;
+    border-radius: 20px;
+    padding: 100px 50px 60px;
+}
+.tpaboutff .ffgrip{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -15px;
+}
+.tpaboutff .ffgrip > div{
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+/* <=== hpaboutff ===> */
+
+/* <=== hpaboutgg ===> */
+
+.hpaboutgg{
+    margin-bottom: 100px;
+}
+.slaboutgg .slick-list{
+    overflow: unset;
+}
+.slaboutgg .actives{
+    transform: translateX(-18px);
+}
+.slaboutgg .activet{
+    transform: translateX(18px);
+}
+.slaboutgg .slick-center{
+    transform: unset!important;
+}
+.itaboutgg{
+    width: 405px;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    transform: scale(0.8);
+}
+.slick-center .itaboutgg{
+    transform: scale(1);
+}
+.itaboutgg .thumb{
+    padding-top: 576px;
+    background-color: #fff;
+    border: 1px solid #DFDFF6;
+    position: relative;
+    margin-bottom: 25px;
+}
+.itaboutgg .thumb img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+.itaboutgg .decss{
+    text-align: center;
+    color: #151535;
+    opacity: 0;
+}
+.slick-center .itaboutgg .decss{
+    opacity: 1;
+}
+.itaboutgg .dstitle{
+    margin-bottom: 10px;
+}
+.itaboutgg .dstitle, .itaboutgg .dstitle h3{
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+}
+.itaboutgg .dsconts{
+    color: #18183D;
+    font-size: 16px;
+    line-height: 26px;
+    width: calc(100% + 100px);
+    margin-left: -50px;
+}
+/* <=== hpaboutgg ===> */
+
+/* <=== hpabouthh ===> */
+.hpabouthh{
+    margin-bottom: 100px;
+}
+.itabouthh .hhgrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+.itabouthh .hhgrip > div{
+    padding: 0 12px;
+}
+.itabouthh .hhgrip .mcol{
+    width: 66.6666%;
+}
+.itabouthh .hhgrip .hcol{
+    width: 33.3333%;
+}
+.vitemblock .vvgrip{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+} 
+.vitemblock .vvgrip > div{
+    width: 50%;
+    padding: 0 12px;
+}
+.vitemblock.vmm{
+    margin-bottom: 24px;
+}
+.vitemblock.vhh .vvgrip .lcol{
+    order: 2;
+}
+.vitemblock.vbb .vvgrip > div{
+    width: 100%;
+}
+.vitemblock .thumb{
+    padding-top: 100%;
+    position: relative;
+    border: 1px solid #DFDFF6;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 5px 0 30px 0 rgba(194, 194, 255, 0.3);
+}
+.vitemblock .thumb img{
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border-radius: 5px;
+}
+.vitemblock .decss{
+    height: 100%;
+    border: 1px solid #DFDFF6;
+    padding: 25px 30px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    border-radius: 5px;
+    box-shadow: 5px 0 30px 0 rgba(194, 194, 255, 0.3);
+    position: relative;
+    z-index: 1;
+}
+.vitemblock.vmm .decss::before{
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 75px;
+    background-image: url('../images/about/hhlinem.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 20px;
+    left: -27px;
+}
+.vitemblock.vhh .decss::before{
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 75px;
+    background-image: url('../images/about/hhlinem.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: 20px;
+    right: -27px;
+}
+.vitemblock.vbb .decss::before{
+    content: '';
+    position: absolute;
+    width: 77px;
+    height: 28px;
+    background-image: url('../images/about/hhlineh.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: -27px;
+    left: 27px;
+}
+.vitemblock .dstitle{
+    color: #151535;
+    margin-bottom: 20px;
+}
+.vitemblock .dstitle, .vitemblock .dstitle h3{
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+}
+.vitemblock .dstitle{
+    max-height: 38px;
+    overflow: hidden;
+}
+.vitemblock .dsconts{
+    color: #18183D;
+    padding-top: 75px;
+    position: relative;
+    font-size: 16px;
+    line-height: 26px;
+}
+.vitemblock .dsconts::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 61px;
+    height: 54px;
+    background-image: url("../images/about/ddquote.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.vitemblock .dtscroll{
+    max-height: 240px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.vitemblock .dtscroll::-webkit-scrollbar{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+.vitemblock .dtscroll::-webkit-scrollbar-thumb {
+    background-color: #dddddd;
+}
+.vitemblock.vbb, .vitemblock.vbb .vvgrip{
+    height: 100%;
+}
+.vitemblock.vbb .vvgrip .lcol{
+    margin-bottom: 24px;
+}
+.vitemblock.vbb .vvgrip > div{
+    height: calc(50% - 12px);
+}
+.slabouthh{
+    padding-bottom: 100px;
+    position: relative;
+} 
+.slabouthh .slick-list{
+    padding: 20px 0;
+}
+.slabouthh .slick-arrow{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 72px;
+    height: 72px;
+    border: 1px solid rgba(21, 21, 53, 1);
+    background-color: transparent;
+    font-size: 0;
+    border-radius: 100%;
+}
+.slabouthh .slick-arrow::before{
+    font-family: 'icomoon' !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 45px;
+}
+.slabouthh .slick-prev{
+    margin-left: -100px;
+}
+.slabouthh .slick-prev::before{
+    content: '\e90a';
+}
+.slabouthh .slick-next{
+    margin-left: 100px;
+}
+.slabouthh .slick-next::before{
+    content: '\e909';
+}
+.slbutnumber{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 125px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 16px;
+    color: rgba(83, 83, 100, 1);
+    bottom: 25px;
+    justify-content: center;
+}
+.slbutnumber .nbegin{
+    margin-right: 65px;
+    position: relative;
+}
+.slbutnumber .nbegin::before{
+    content: '';
+    background-color: rgba(21, 21, 53, 1);
+    height: 2px;
+    position: absolute;
+    right: -55px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+}
+/* <=== hpabouthh ===> */
+
+@media all and (max-width: 1500px){
+    /* <=== hpaboutbb ===> */
+    .slaboutbb {
+        display: none!important;
+    }
+    /* <=== hpaboutbb ===> */
+}
+@media all and (max-width: 1300px){
+    /* <=== hpabouthh ===> */
+    .vitemblock .decss{
+        padding: 20px;
+    }
+    .vitemblock .dstitle, .vitemblock .dstitle h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .vitemblock .dstitle{
+        max-height: 60px;
+    }
+    .vitemblock .dsconts{
+        padding-top: 50px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .vitemblock .dsconts::before{
+        width: 46px;
+        height: 39px;
+    }
+    .vitemblock .dtscroll{
+        max-height: 130px;
+    }
+    /* <=== hpabouthh ===> */
+}
+@media all and (max-width: 1200px){
+    .slabouteh {
+        padding-bottom: 80px;
+    }
+    .slabouteh .slick-arrow{
+        width: 50px;
+        height: 50px;
+    }
+    .slabouteh .slick-prev{
+        left: calc(50% - 60px)!important;
+    }
+    .slabouteh .slick-next{
+        left: calc(50% + 10px)!important;
+    }
+}
+@media all and (max-width: 991px){
+    /* <=== hpaboutaa ===> */
+    .tpaboutah{
+        margin-top: 0;
+    }
+    .hpaboutaa .aagrip > div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .hpaboutaa .aagrip > div:last-child{
+        margin-bottom: 0;
+    }
+    .tpaboutam .amtitle{
+        max-width: 100%;
+        text-align: center;
+        padding: 25px 0 35px;
+    }
+    .tpaboutam .amtitle, .tpaboutam .amtitle h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .tpaboutah .ahimges{
+        margin-bottom: 20px;
+    }
+    .tpaboutah .ahdecss{
+        padding: 0 15px;
+        max-width: 100%;
+    }
+    .tpaboutah .dstitle, .tpaboutah .dstitle h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .tpaboutah .dstends{
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: unset;
+    }
+    .hpaboutaa{
+        margin-bottom: 40px;
+    }
+    /* <=== hpaboutaa ===> */
+
+    /* <=== hpaboutbb ===> */
+    .itaboutbb .bbgrip .lcol{
+        width: 360px;
+    }
+    .itaboutbb .vvyear{
+        font-size: 120px;
+        line-height: 120px;
+    }
+    .itaboutbb .bbgrip .rcol{
+        width: calc(100% - 360px);
+    }
+    .tpaboutbb .bbtitle, .tpaboutbb .bbtitle h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .itaboutbb .dstends{
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .itaboutbb .dstends p{
+        margin-bottom: 0;
+    }
+    .itaboutbb .dstitle, .itaboutbb .dstitle h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .itaboutbb .dsconts{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .hpaboutbb{
+        margin-bottom: 50px;
+    }
+    /* <=== hpaboutbb ===> */
+
+    /* <=== hpaboutcc ===> */
+    .hpaboutcc{
+        margin-bottom: 40px;
+    }
+    .itaboutcc.vhh{
+        padding-left: 0;
+        height: auto;
+        padding: 50px 0;
+    }
+    .tpaboutcc .vvgrip .mcol{
+        width: 100%;
+        border-bottom: 2px solid #CCCCFF;
+        border-right: none;
+    }
+    .tpaboutcc .vvgrip .hcol{
+        width: 100%;
+    }
+    .itaboutcc.vhh .ccgrip .lcol{
+        width: 45%;
+    }
+    .itaboutcc.vhh .ccgrip .rcol{
+        width: 55%;
+    }
+    .itaboutcc.vmm{
+        padding: 50px 0;
+    }
+    .itaboutcc .vvtitle, .itaboutcc .vvtitle h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .itaboutcc .ctname, .itaboutcc .ctname h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .itaboutcc .ctdecs{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    /* <=== hpaboutcc ===> */
+
+    /* <=== hpaboutdd ===> */
+    .hpaboutdd{
+        margin-bottom: 50px;
+    }
+    .tpaboutdd .ddgrip > div{
+        width: 50%;
+    }
+    .itaboutdd .dstitle{
+        font-size: 14px;
+        line-height: 22px;
+        max-height: 44px;
+    }
+
+    /* <=== hpaboutdd ===> */
+
+    /* <=== hpaboutee ===> */
+    .hpaboutee{
+        margin-bottom: 50px;
+    }
+    .itaboutem .vvicon{
+        width: 100px;
+        height: 100px;
+    }
+    .itaboutem .vvcont{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .slaboutem{
+        margin-bottom: 20px;
+    }
+    .itabouteh{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    /* <=== hpaboutee ===> */
+
+    /* <=== hpaboutff ===> */
+    .hpaboutff{
+        margin-bottom: 50px;
+    }
+    .tpaboutff .ffgrip{
+        margin: 0 -10px;
+    }
+    .tpaboutff .ffgrip > div{
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+    .tpaboutff{
+        padding: 50px 15px 40px;
+    }
+    /* <=== hpaboutff ===> */
+
+    /* <=== hpaboutgg ===> */
+    .hpaboutgg{
+        margin-bottom: 50px;
+    }
+    /* <=== hpaboutgg ===> */
+
+    /* <=== hpabouthh ===> */
+    .hpabouthh{
+        margin-bottom: 50px;
+    }
+    .itabouthh .hhgrip .mcol{
+        width: 100%;
+    }
+    .itabouthh .hhgrip .hcol{
+        width: 100%;
+    }
+    .vitemblock.vbb{
+        margin-top: 24px;
+    }
+    .vitemblock.vbb .vvgrip .lcol{
+        margin-bottom: 0;
+    }
+    .vitemblock.vbb .vvgrip > div{
+        height: auto;
+        width: 50%;
+    }
+    .vitemblock.vbb .decss::before{
+        position: absolute;
+        width: 28px;
+        height: 75px;
+        background-image: url(../images/about/hhlinem.png);
+        bottom: 20px;
+        left: -27px;
+        top: unset;
+    }
+    .vitemblock.vbb, .vitemblock.vbb .vvgrip{
+        height: auto;
+    }
+    .vitemblock .dtscroll{
+        max-height: 180px;
+    }
+    /* <=== hpabouthh ===> */
+}
+@media all and (max-width: 767px){
+    /* <=== hpaboutbb ===> */
+    .itaboutbb .bbgrip .lcol{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .itaboutbb .vvyear{
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .itaboutbb .bbgrip .rcol{
+        width: 100%;
+    }
+    /* <=== hpaboutbb ===> */
+
+    /* <=== hpaboutcc ===> */
+    .itaboutcc.vmm, .itaboutcc.vhh{
+        padding: 25px 0 35px;
+    }
+    .itaboutcc.vmm .ccgrip .lcol, .itaboutcc.vhh .ccgrip .lcol{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .itaboutcc.vmm .ccgrip .rcol, .itaboutcc.vhh .ccgrip .rcol{
+        width: 100%;
+    }
+    /* <=== hpaboutcc ===> */
+
+    /* <=== hpaboutdd ===> */
+    .tpaboutdd .ddgrip > div{
+        width: 100%;
+    }
+    /* <=== hpaboutdd ===> */
+
+    /* <=== hpaboutff ===> */
+    .tpaboutff .ffgrip > div{
+        max-width: 50%;
+    }
+    /* <=== hpaboutff ===> */
+
+    /* <=== hpaboutgg ===> */
+    .slaboutgg .slick-list{
+        overflow: hidden;
+    }
+    .itaboutgg{
+        width: 100%;
+        transform: scale(1);
+    }
+    .itaboutgg .thumb{
+        padding-top: 150%;
+        margin-bottom: 20px;
+    }
+    .itaboutgg .dstitle, .itaboutgg .dstitle h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .itaboutgg .dsconts{
+        font-size: 14px;
+        line-height: 22px;
+        width: 100%;
+        margin-left: 0;
+    }
+    /* <=== hpaboutgg ===> */
+
+    /* <=== hpabouthh ===> */
+    .vitemblock .decss::before{
+        display: none;
+    }
+    .vitemblock .vvgrip > div{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .vitemblock .vvgrip > div:last-child{
+        margin-bottom: 0;
+    }
+    .vitemblock.vhh .vvgrip .lcol{
+        order: unset;
+    }
+    .vitemblock.vbb .vvgrip > div{
+        width: 100%;
+    }
+    .vitemblock.vbb .vvgrip .lcol{
+        margin-bottom: 10px;
+    }
+    .vitemblock .dstitle{
+        height: auto;
+    }
+    /* <=== hpabouthh ===> */
+}

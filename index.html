@@ -1,0 +1,1368 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <meta name="viewport" content="width=device-width, maximum-scale=2.0, user-scalable=yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Trang chủ</title> 
+    <!-- DÙNG CHUNG CHO TÒAN SITE -->
+    <link href="js/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="js/slick/slick.css" rel="stylesheet" type="text/css" />
+    <link href="js/menumobile/menumobile.css" rel="stylesheet" type="text/css" />
+    <link href="js/datepicker/datepicker.css" rel="stylesheet" type="text/css" />
+    <link href="js/fancybox3/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="style/font/fontawesome5/css/all.css" rel="stylesheet" type="text/css" />
+    <link href="style/screen.css" rel="stylesheet" type="text/css" />
+    <link href="js/chosen/chosen.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/slick/slick.js"></script>
+    <script type="text/javascript" src="js/menumobile/menumobile.js"></script>
+    <script type="text/javascript" src="js/datepicker/datepicker.js"></script>
+    <script type="text/javascript" src="js/fancybox3/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="js/core.js"></script>
+    <script type="text/javascript" src="js/style.js"></script>
+    <script type="text/javascript" src="js/chosen/chosen.jquery.js"></script>
+    <script type="text/javascript" src="js/mnfixed/mnfixed.js"></script>
+    <!--===MODULE PAGE==-->
+    <link href="style/main.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/main/main.js"></script>
+    <link rel="stylesheet" href="js/main/aitohus/css/style.css" />
+    <script src="js/main/aitohus/js/main.js" type="module"></script>
+    <!--===MODULE PAGE==-->
+    <!--===LAZYLOADING===-->
+    <script type="text/javascript" src="js/my_effect_scroll/my_effect_scroll.js"></script>
+    <link href="style/animate.css" rel="stylesheet" type="text/css" />
+    <!--===LAZYLOADING===-->
+</head>
+<body data-barba="wrapper">
+    <div id="vh-wrapper">
+        <div id="vh-container">
+            <!--==BEGIN - BANNER==-->
+            <div id="vh-banner">
+                <div class="slbannerhh vhslickload vhbtnslick">
+                    <div class="item">
+                        <div class="banvdimg">
+                            <div class="bg" style="background-image: url(images/main/banner.jpg)">
+                                <img src="images/main/banner.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="banvdimg">
+                            <div class="bg" style="background-image: url(images/main/banner1.jpg)">
+                                <img src="images/main/banner1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="banvdimg">
+                            <video class="ssvideo" id="videoPlay" muted="" playsinline="" autoplay>
+                                <source src="images/video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    setlazy($(".slbannerhh"),'fadeIn','0.1');
+                </script>
+            </div>
+            <!--==END - BANNER==-->
+            <!--==BEGIN - HEADER==-->
+            <div id="vh-header">
+                <div class="vhheader">
+                    <div class="wrapper">
+                        <div class="hpheader">
+                            <div class="grhead">
+                                <div class="lcol hidden-xs hidden-sm">
+                                    <div class="tpsubmnhead">
+                                        <ul>
+                                            <li><a href="about.html">Về chúng tôi</a></li>
+                                            <li><a href="services.html">Dịch vụ</a></li>
+                                            <li><a href="working_space.html">Môi trường làm việc</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="ccol">
+                                    <div class="tplogohead">
+                                        <h2><a href="index.html"><img src="images/logo.png" alt=""></a></h2>
+                                    </div>
+                                </div>
+                                <div class="rcol">
+                                    <div class="tptoolhead">
+                                        <div class="grtool">
+                                            <div class="tcol hidden-xs hidden-sm">
+                                                <div class="itsearchhead">
+                                                    <div class="scicon">
+                                                        <span class="iimg"><img src="images/isearch.svg" alt=""></span>
+                                                        <span class="itxt">Tìm kiếm</span>
+                                                    </div>
+                                                    <div class="scpops">
+                                                        <div class="wrapper">
+                                                            <form name="formSearch" method="post" action="" class="box_search">
+                                                                <input name="keyword" type="text" class="text_search" autocomplete="off">
+                                                                <span class="place">Nhập từ khóa</span>
+                                                                <input name="do_search" value="1" type="hidden">
+                                                            </form>
+                                                        </div>
+                                                        <div class="closez"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tcol hidden-xs hidden-sm">
+                                                <div class="itlinkhead">
+                                                    <a href="faq.html">FAQs</a>
+                                                </div>
+                                            </div>
+                                            <div class="tcol hidden-xs hidden-sm">
+                                                <div class="itphonehead">
+                                                    <a href="">
+                                                        <span class="vicon"><img src="images/iphone.svg" alt=""></span>
+                                                        <span class="vtext">Liên hệ chúng tôi</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="tcol">
+                                                <div class="itlanghead">
+                                                    <a href="">EN</a>
+                                                </div>
+                                            </div>
+                                            <div class="tcol hidden-md hidden-lg">
+                                                <div class="tpmnmobihd">
+                                                    <div class="menu_mobile">
+                                                        <div class="icon_menu">
+                                                            <span class="style_icon"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--==END - HEADER==-->
+            <!--==BEGIN - CONTENT==-->
+            <div id="vh-content">
+                <!-- boxhome -->
+                <div class="boxhome">
+                    <div class="abouthome">
+                        <div class="wrapper">
+                            <div class="habouthh">
+                                <div class="abtitle">
+                                    <h2>
+                                        <div class="is-masking">
+                                            <div class="line"><span>Local know-how and international</span> standards</div>
+                                            <div class="line">coming together to produce truly wonderful</div>
+                                            <div class="line">environments.</div>
+                                        </div>
+                                        <div class="is-bg">
+                                            <div class="line"><span>Local know-how and international</span> standards</div>
+                                            <div class="line">coming together to produce truly wonderful</div>
+                                            <div class="line">environments.</div>
+                                        </div>
+                                    </h2>
+                                </div>
+                                <div class="abtends">
+                                    Discover How We Create Exceptional Spaces
+                                </div>
+                                <div class="abviews">
+                                    <a href="">Connect With Us Today</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- boxhome -->
+                <div class="boxhome">
+                    <div class="solutiohome">
+                        <div class="wrapper">
+                            <div class="hpsolutiohh">
+                                <div class="hhgrip">
+                                    <div class="lcol">
+                                        <div class="hhtitle">
+                                            <div class="vhtitleal">
+                                                <h2>ForG: Sáng Tạo Kiến Trúc và Giải Pháp Tổng Thể Cho Môi Trường Sống và Làm Việc</h2>
+                                            </div>
+                                            <div class="vhcontsal">
+                                                <div class="slsolutioha vhslickload" data-num="3">
+                                                    <div class="colsl">
+                                                        <div class="itsolutioha">
+                                                            <div class="hadecss">
+                                                                <div class="dstends">ForG không chỉ là một công ty kiến trúc - đó là nơi sáng tạo, đổi mới và phát triển không ngừng. Chúng tôi mang đến cho khách hàng không chỉ là những công trình kiến trúc, mà còn là giải pháp tổng thể cho không gian sống và làm việc, nơi sự hài hòa giữa vẻ đẹp, chức năng và trách nhiệm môi trường được đặt lên hàng đầu.</div>
+                                                            </div>
+                                                            <div class="dsviews">
+                                                                <a href="">About us</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="colsl">
+                                                        <div class="itsolutioha">
+                                                            <div class="hadecss">
+                                                                <div class="dstends">ForG không chỉ là một công ty kiến trúc - đó là nơi sáng tạo, đổi mới và phát triển không ngừng. Chúng tôi mang đến cho khách hàng không chỉ là những công trình kiến trúc, mà còn là giải pháp tổng thể cho không gian sống và làm việc, nơi sự hài hòa giữa vẻ đẹp, chức năng và trách nhiệm môi trường được đặt lên hàng đầu.</div>
+                                                            </div>
+                                                            <div class="dsviews">
+                                                                <a href="">About us</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="colsl">
+                                                        <div class="itsolutioha">
+                                                            <div class="hadecss">
+                                                                <div class="dstends">ForG không chỉ là một công ty kiến trúc - đó là nơi sáng tạo, đổi mới và phát triển không ngừng. Chúng tôi mang đến cho khách hàng không chỉ là những công trình kiến trúc, mà còn là giải pháp tổng thể cho không gian sống và làm việc, nơi sự hài hòa giữa vẻ đẹp, chức năng và trách nhiệm môi trường được đặt lên hàng đầu.</div>
+                                                            </div>
+                                                            <div class="dsviews">
+                                                                <a href="">About us</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rcol">
+                                        <div class="vhcontsal">
+                                            <div class="slsolutiohb vhslickload">
+                                                <div class="colsl">
+                                                    <div class="itsolutiohb">
+                                                        <div class="hathumb">
+                                                            <img src="images/main/solu1.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="colsl">
+                                                    <div class="itsolutiohb">
+                                                        <div class="hathumb">
+                                                            <img src="images/main/solu2.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="colsl">
+                                                    <div class="itsolutiohb">
+                                                        <div class="hathumb">
+                                                            <img src="images/main/solu1.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- boxhome -->
+                <div class="boxhome">
+                    <div class="serviceshome">
+                        <div class="wrapper">
+                            <div class="hpserviceshh">
+                                <div class="vhtitleal">
+                                    <h2>Dịch vụ của chúng tôi</h2>
+                                </div>
+                                <div class="vhcontsal">
+                                    <div class="tpserviceshh">
+                                        <div class="hhlist">
+                                            <div class="itserviceshh">
+                                                <div class="hhgrip">
+                                                    <div class="lcol">
+                                                        <div class="decss">
+                                                            <div class="dsgrip">
+                                                                <div class="tcol">
+                                                                    <div class="dscapts">
+                                                                        DỊCH VỤ 1
+                                                                    </div>
+                                                                    <div class="dstitle">
+                                                                        <h3><a href="">Thiết Kế Kiến Trúc Bền Vững</a></h3>
+                                                                    </div>
+                                                                    <div class="dstends">
+                                                                        ForG mang đến giải pháp thiết kế nội thất sáng tạo, kết hợp chức năng và thẩm mỹ, tối ưu không gian sống và làm việc.
+                                                                    </div>
+                                                                </div>
+                                                                <div class="bcol">
+                                                                    <div class="dsviews">
+                                                                        <a href=""><span>Xem chi tiết</span></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rcol">
+                                                        <div class="thumb">
+                                                            <a href="">
+                                                                <img src="images/main/dv1.png" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="itserviceshh">
+                                                <div class="hhgrip">
+                                                    <div class="lcol">
+                                                        <div class="decss">
+                                                            <div class="dsgrip">
+                                                                <div class="tcol">
+                                                                    <div class="dscapts">
+                                                                        DỊCH VỤ 2
+                                                                    </div>
+                                                                    <div class="dstitle">
+                                                                        <h3><a href="">Quy Hoạch Đô Thị và Phát Triển</a></h3>
+                                                                    </div>
+                                                                    <div class="dstends">
+                                                                        Dịch vụ này bao gồm quy hoạch đô thị toàn diện, từ phân tích địa lý, xã hội đến thiết kế không gian công cộng, tạo dựng môi trường sống văn minh và thuận tiện.
+                                                                    </div>
+                                                                </div>
+                                                                <div class="bcol">
+                                                                    <div class="dsviews">
+                                                                        <a href=""><span>Xem chi tiết</span></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rcol">
+                                                        <div class="thumb">
+                                                            <a href="">
+                                                                <img src="images/main/dv2.png" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="itserviceshh">
+                                                <div class="hhgrip">
+                                                    <div class="lcol">
+                                                        <div class="decss">
+                                                            <div class="dsgrip">
+                                                                <div class="tcol">
+                                                                    <div class="dscapts">
+                                                                        DỊCH VỤ 3
+                                                                    </div>
+                                                                    <div class="dstitle">
+                                                                        <h3><a href="">Thiết Kế Nội Thất và Không Gian</a></h3>
+                                                                    </div>
+                                                                    <div class="dstends">
+                                                                        ForG mang đến giải pháp thiết kế nội thất sáng tạo, kết hợp chức năng và thẩm mỹ, tối ưu không gian sống và làm việc.
+                                                                    </div>
+                                                                </div>
+                                                                <div class="bcol">
+                                                                    <div class="dsviews">
+                                                                        <a href=""><span>Xem chi tiết</span></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rcol">
+                                                        <div class="thumb">
+                                                            <a href="">
+                                                                <img src="images/main/dv3.png" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="itserviceshh">
+                                                <div class="hhgrip">
+                                                    <div class="lcol">
+                                                        <div class="decss">
+                                                            <div class="dsgrip">
+                                                                <div class="tcol">
+                                                                    <div class="dscapts">
+                                                                        DỊCH VỤ 4
+                                                                    </div>
+                                                                    <div class="dstitle">
+                                                                        <h3><a href="">Kiến Trúc Cảnh Quan</a></h3>
+                                                                    </div>
+                                                                    <div class="dstends">
+                                                                        Chúng tôi tạo ra không gian xanh độc đáo, kết hợp hài hòa giữa kiến trúc và tự nhiên, từ công viên đô thị đến khu vườn tư nhân.
+                                                                    </div>
+                                                                </div>
+                                                                <div class="bcol">
+                                                                    <div class="dsviews">
+                                                                        <a href=""><span>Xem chi tiết</span></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rcol">
+                                                        <div class="thumb">
+                                                            <a href="">
+                                                                <img src="images/main/dv4.png" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="itserviceshh">
+                                                <div class="hhgrip">
+                                                    <div class="lcol">
+                                                        <div class="decss">
+                                                            <div class="dsgrip">
+                                                                <div class="tcol">
+                                                                    <div class="dscapts">
+                                                                        DỊCH VỤ 5
+                                                                    </div>
+                                                                    <div class="dstitle">
+                                                                        <h3><a href="">Tư Vấn Xây Dựng Xanh và LEED</a></h3>
+                                                                    </div>
+                                                                    <div class="dstends">
+                                                                        Dịch vụ của chúng tôi giúp khách hàng đạt được các mục tiêu xây dựng xanh, từ tư vấn chứng chỉ LEED đến thực hành xây dựng bền vững.
+                                                                    </div>
+                                                                </div>
+                                                                <div class="bcol">
+                                                                    <div class="dsviews">
+                                                                        <a href=""><span>Xem chi tiết</span></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="rcol">
+                                                        <div class="thumb">
+                                                            <a href="">
+                                                                <img src="images/main/dv5.png" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hhview">
+                                            <div class="vvgrip">
+                                                <div class="lcol">
+                                                    <div class="vtitle">
+                                                        <h3>Xem tất cả dịch vụ của chúng tôi</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="rcol">
+                                                    <div class="vlinks">
+                                                        <a href="">
+                                                            <span>Xem tất cả dịch vụ</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- boxhome -->
+                <div class="boxhome">
+                    <div class="projechome">
+                        <div class="prjtitle">
+                            <div class="wrapper">
+                                <div class="vhtitleal">
+                                    <h2>Dự án tiêu biểu</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="page">
+                            <div data-barba="container" data-barba-namespace="home" id="content">
+                                <div data-container-inn="">
+                                    <main id="content">
+                                        <section class="top-design" data-top-design="">
+                                            <!-- Image -->
+                                            <div class="top-design__grid__wrapper">
+                                                <div class="top-design__grid__inner" data-design-grid-inner="">
+                                                    <div class="top-design__grids" data-design-grid="">
+                                                        <div class="top-design__grids__wrapper" data-design-grids="">
+                
+                                                            <!-- Image 1 -->
+                                                            <div class="top-design__grids__row">
+                                                                <figure class="top-design__grids__items :1" data-scroll-trigger="mask">
+                                                                    <picture>
+                                                                        <img alt="" src="images/main/da4.png" loading="lazy" decoding="async" class="top-design__grids__items__image" data-design-grid-image="" />
+                                                                    </picture>
+                                                                </figure>
+                                                            </div>
+                                                            <div class="top-design__grids__row">
+                                                                <!-- Image 2 -->
+                                                                <figure class="top-design__grids__items :2" data-scroll-trigger="mask">
+                                                                    <picture>
+                                                                        <img alt="" src="images/main/da1.png" loading="lazy" decoding="async" class="top-design__grids__items__image" data-design-grid-image="" />
+                                                                    </picture>
+                                                                </figure>
+                                                                <!-- Image giữa -->
+                                                                <div class="top-design__grids__items :main" data-design-default="" data-scroll-trigger="mask">
+                                                                    <picture>
+                                                                        <img alt="" src="images/main/da3.png" loading="lazy" decoding="async" class="top-design__grids__items__image" />
+                                                                    </picture>
+                                                                </div>
+                                                                <!-- Image 3 -->
+                                                                <figure class="top-design__grids__items :3" data-scroll-trigger="mask">
+                                                                    <picture>
+                                                                        <img alt="" src="images/main/da5.png" loading="lazy" decoding="async" class="top-design__grids__items__image" data-design-grid-image="" />
+                                                                    </picture>
+                                                                </figure>
+                                                            </div>
+                                                            <!-- Image 4 -->
+                                                            <div class="top-design__grids__row">
+                                                                <figure class="top-design__grids__items :4" data-scroll-trigger="mask">
+                                                                    <picture>
+                                                                        <img alt="" src="images/main/da2.png" loading="lazy" decoding="async" class="top-design__grids__items__image" data-design-grid-image="" />
+                                                                    </picture>
+                                                                </figure>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Image giữa -->
+                                                        <div class="top-design__grid-main">
+                                                            <figure class="top-design__grid-main__items" data-design-main="" data-scroll-trigger="mask">
+                                                                <picture>
+                                                                    <img alt="" src="images/main/da3.png" loading="lazy" decoding="async" class="top-design__grid-main__items__image" />
+                                                                </picture>
+                                                                <div class="-overlay"></div>
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Content 1-->
+                                            <div class="top-design__wrapper" data-top-section="">
+                                                <div class="top-design__bg" data-is-dark="">
+                                                    <!-- Image giữa -->
+                                                    <!-- <figure class="top-design__bg__figure">
+                                                        <picture>
+                                                            <img alt="" src="images/main/da3.png" loading="lazy" decoding="async" class="top-design__bg__figure__image" />
+                                                        </picture>
+                                                    </figure> -->
+                                                </div>
+                                                <div class="hpinfoshh">
+                                                    <div class="hhsolu">
+                                                        Travel
+                                                    </div>
+                                                    <div class="wrapper">
+                                                        <div class="hhtitle">
+                                                            <h2>Blue Sea Ecotourism Ho Tram</h2>
+                                                        </div>
+                                                        <div class="hhconts">
+                                                            Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                        </div>
+                                                        <div class="hhinfos">
+                                                            <ul>
+                                                                <li>
+                                                                    <div class="tm">Địa điểm</div>
+                                                                    <div class="th">VŨNG TÀU</div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="tm">Diện tích</div>
+                                                                    <div class="th">399,272 m²</div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="tm">Loại dự án</div>
+                                                                    <div class="th">Du lịch</div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="hhviews">
+                                                            <a href="">Xem tất cả dịch vụ</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <!-- Content 2 -->
+                                        <section class="top-quality" data-top-quality="" data-top-section="">
+                                            <div class="top-quality__bg" data-is-dark="">
+                                                <figure class="top-quality__bg__figure">
+                                                    <picture>
+                                                        <img alt="" src="images/main/images/quality.jpg" loading="lazy" decoding="async" class="top-quality__bg__figure__image" width="2017" height="1261" data-quality-bg="" />
+                                                    </picture>
+                                                </figure>
+                                            </div>
+                                            <div class="hpinfoshh">
+                                                <div class="hhsolu">
+                                                    Travel
+                                                </div>
+                                                <div class="wrapper">
+                                                    <div class="hhtitle">
+                                                        <h2>Blue Sea Ecotourism Ho Tram</h2>
+                                                    </div>
+                                                    <div class="hhconts">
+                                                        Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                    </div>
+                                                    <div class="hhinfos">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="tm">Địa điểm</div>
+                                                                <div class="th">VŨNG TÀU</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="tm">Diện tích</div>
+                                                                <div class="th">399,272 m²</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="tm">Loại dự án</div>
+                                                                <div class="th">Du lịch</div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="hhviews">
+                                                        <a href="">Xem tất cả dịch vụ</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="top-quality" data-top-quality="" data-top-section="">
+                                            <div class="top-quality__bg" data-is-dark="">
+                                                <figure class="top-quality__bg__figure">
+                                                    <picture>
+                                                        <img alt="" src="images/main/images/quality.jpg" loading="lazy" decoding="async" class="top-quality__bg__figure__image" width="2017" height="1261" data-quality-bg="" />
+                                                    </picture>
+                                                </figure>
+                                            </div>
+                                            <div class="hpinfoshh">
+                                                <div class="hhsolu">
+                                                    Travel
+                                                </div>
+                                                <div class="wrapper">
+                                                    <div class="hhtitle">
+                                                        <h2>Blue Sea Ecotourism Ho Tram</h2>
+                                                    </div>
+                                                    <div class="hhconts">
+                                                        Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                    </div>
+                                                    <div class="hhinfos">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="tm">Địa điểm</div>
+                                                                <div class="th">VŨNG TÀU</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="tm">Diện tích</div>
+                                                                <div class="th">399,272 m²</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="tm">Loại dự án</div>
+                                                                <div class="th">Du lịch</div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="hhviews">
+                                                        <a href="">Xem tất cả dịch vụ</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="top-quality" data-top-quality="" data-top-section="">
+                                            <div class="top-quality__bg" data-is-dark="">
+                                                <figure class="top-quality__bg__figure">
+                                                    <picture>
+                                                        <img alt="" src="images/main/images/quality.jpg" loading="lazy" decoding="async" class="top-quality__bg__figure__image" width="2017" height="1261" data-quality-bg="" />
+                                                    </picture>
+                                                </figure>
+                                            </div>
+                                            <div class="hpinfoshh">
+                                                <div class="hhsolu">
+                                                    Travel
+                                                </div>
+                                                <div class="wrapper">
+                                                    <div class="hhtitle">
+                                                        <h2>Blue Sea Ecotourism Ho Tram</h2>
+                                                    </div>
+                                                    <div class="hhconts">
+                                                        Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                    </div>
+                                                    <div class="hhinfos">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="tm">Địa điểm</div>
+                                                                <div class="th">VŨNG TÀU</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="tm">Diện tích</div>
+                                                                <div class="th">399,272 m²</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="tm">Loại dự án</div>
+                                                                <div class="th">Du lịch</div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="hhviews">
+                                                        <a href="">Xem tất cả dịch vụ</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <section class="top-quality" data-top-quality="" data-top-section="">
+                                            <div class="top-quality__bg" data-is-dark="">
+                                                <figure class="top-quality__bg__figure">
+                                                    <picture>
+                                                        <img alt="" src="images/main/images/quality.jpg" loading="lazy" decoding="async" class="top-quality__bg__figure__image" width="2017" height="1261" data-quality-bg="" />
+                                                    </picture>
+                                                </figure>
+                                            </div>
+                                            <div class="hpinfoshh">
+                                                <div class="hhsolu">
+                                                    Travel
+                                                </div>
+                                                <div class="wrapper">
+                                                    <div class="hhtitle">
+                                                        <h2>Blue Sea Ecotourism Ho Tram</h2>
+                                                    </div>
+                                                    <div class="hhconts">
+                                                        Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                    </div>
+                                                    <div class="hhinfos">
+                                                        <ul>
+                                                            <li>
+                                                                <div class="tm">Địa điểm</div>
+                                                                <div class="th">VŨNG TÀU</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="tm">Diện tích</div>
+                                                                <div class="th">399,272 m²</div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="tm">Loại dự án</div>
+                                                                <div class="th">Du lịch</div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="hhviews">
+                                                        <a href="">Xem tất cả dịch vụ</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                        <!-- Content 3 -->
+                                    </main>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- MOUSE -->
+                        <div class="js-mouse-stalker" data-mouse-stalker="">
+                            <div class="js-mouse-stalker__cursor" data-mouse-stalker-cursor=""></div>
+                            <div class="js-mouse-stalker__follower" data-mouse-stalker-follower=""></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- boxhome -->
+                <div class="boxhome">
+                    <div class="customhome">
+                        <div class="tpabouthh">
+                            <div class="vhtitleal vcenter">
+                                <div class="wrapper">
+                                    <h2>Đánh giá của khách hàng</h2>
+                                </div>
+                            </div>
+                            <div class="vhcontsal">
+                                <div class="slabouthh vhslickload">
+                                    <div class="colsl">
+                                        <div class="itabouthh">
+                                            <div class="wrapper">
+                                                <div class="hhgrip">
+                                                    <div class="mcol">
+                                                        <div class="vitemblock vmm">
+                                                            <div class="vvgrip">
+                                                                <div class="lcol">
+                                                                    <div class="thumb">
+                                                                        <img src="images/about/hh1.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="rcol">
+                                                                    <div class="decss">
+                                                                        <div class="dstitle">
+                                                                            <h3>Blue Sea Ecotourism Ho Tram</h3>
+                                                                        </div>
+                                                                        <div class="dsconts">
+                                                                            <div class="dtscroll">
+                                                                                Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="vitemblock vhh">
+                                                            <div class="vvgrip">
+                                                                <div class="lcol">
+                                                                    <div class="thumb">
+                                                                        <img src="images/about/hh2.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="rcol">
+                                                                    <div class="decss">
+                                                                        <div class="dstitle">
+                                                                            <h3>Blue Sea Ecotourism Ho Tram</h3>
+                                                                        </div>
+                                                                        <div class="dsconts">
+                                                                            <div class="dtscroll">
+                                                                                Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hcol">
+                                                        <div class="vitemblock vbb">
+                                                            <div class="vvgrip">
+                                                                <div class="lcol">
+                                                                    <div class="thumb">
+                                                                        <img src="images/about/hh3.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="rcol">
+                                                                    <div class="decss">
+                                                                        <div class="dstitle">
+                                                                            <h3>Blue Sea Ecotourism Ho Tram</h3>
+                                                                        </div>
+                                                                        <div class="dsconts">
+                                                                            <div class="dtscroll">
+                                                                                Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="colsl">
+                                        <div class="itabouthh">
+                                            <div class="wrapper">
+                                                <div class="hhgrip">
+                                                    <div class="mcol">
+                                                        <div class="vitemblock vmm">
+                                                            <div class="vvgrip">
+                                                                <div class="lcol">
+                                                                    <div class="thumb">
+                                                                        <img src="images/about/hh1.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="rcol">
+                                                                    <div class="decss">
+                                                                        <div class="dstitle">
+                                                                            <h3>Blue Sea Ecotourism Ho Tram</h3>
+                                                                        </div>
+                                                                        <div class="dsconts">
+                                                                            <div class="dtscroll">
+                                                                                Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="vitemblock vhh">
+                                                            <div class="vvgrip">
+                                                                <div class="lcol">
+                                                                    <div class="thumb">
+                                                                        <img src="images/about/hh2.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="rcol">
+                                                                    <div class="decss">
+                                                                        <div class="dstitle">
+                                                                            <h3>Blue Sea Ecotourism Ho Tram</h3>
+                                                                        </div>
+                                                                        <div class="dsconts">
+                                                                            <div class="dtscroll">
+                                                                                Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hcol">
+                                                        <div class="vitemblock vbb">
+                                                            <div class="vvgrip">
+                                                                <div class="lcol">
+                                                                    <div class="thumb">
+                                                                        <img src="images/about/hh3.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="rcol">
+                                                                    <div class="decss">
+                                                                        <div class="dstitle">
+                                                                            <h3>Blue Sea Ecotourism Ho Tram</h3>
+                                                                        </div>
+                                                                        <div class="dsconts">
+                                                                            <div class="dtscroll">
+                                                                                Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="colsl">
+                                        <div class="itabouthh">
+                                            <div class="wrapper">
+                                                <div class="hhgrip">
+                                                    <div class="mcol">
+                                                        <div class="vitemblock vmm">
+                                                            <div class="vvgrip">
+                                                                <div class="lcol">
+                                                                    <div class="thumb">
+                                                                        <img src="images/about/hh1.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="rcol">
+                                                                    <div class="decss">
+                                                                        <div class="dstitle">
+                                                                            <h3>Blue Sea Ecotourism Ho Tram</h3>
+                                                                        </div>
+                                                                        <div class="dsconts">
+                                                                            <div class="dtscroll">
+                                                                                Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="vitemblock vhh">
+                                                            <div class="vvgrip">
+                                                                <div class="lcol">
+                                                                    <div class="thumb">
+                                                                        <img src="images/about/hh2.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="rcol">
+                                                                    <div class="decss">
+                                                                        <div class="dstitle">
+                                                                            <h3>Blue Sea Ecotourism Ho Tram</h3>
+                                                                        </div>
+                                                                        <div class="dsconts">
+                                                                            <div class="dtscroll">
+                                                                                Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hcol">
+                                                        <div class="vitemblock vbb">
+                                                            <div class="vvgrip">
+                                                                <div class="lcol">
+                                                                    <div class="thumb">
+                                                                        <img src="images/about/hh3.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="rcol">
+                                                                    <div class="decss">
+                                                                        <div class="dstitle">
+                                                                            <h3>Blue Sea Ecotourism Ho Tram</h3>
+                                                                        </div>
+                                                                        <div class="dsconts">
+                                                                            <div class="dtscroll">
+                                                                                Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="colsl">
+                                        <div class="itabouthh">
+                                            <div class="wrapper">
+                                                <div class="hhgrip">
+                                                    <div class="mcol">
+                                                        <div class="vitemblock vmm">
+                                                            <div class="vvgrip">
+                                                                <div class="lcol">
+                                                                    <div class="thumb">
+                                                                        <img src="images/about/hh1.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="rcol">
+                                                                    <div class="decss">
+                                                                        <div class="dstitle">
+                                                                            <h3>Blue Sea Ecotourism Ho Tram</h3>
+                                                                        </div>
+                                                                        <div class="dsconts">
+                                                                            <div class="dtscroll">
+                                                                                Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="vitemblock vhh">
+                                                            <div class="vvgrip">
+                                                                <div class="lcol">
+                                                                    <div class="thumb">
+                                                                        <img src="images/about/hh2.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="rcol">
+                                                                    <div class="decss">
+                                                                        <div class="dstitle">
+                                                                            <h3>Blue Sea Ecotourism Ho Tram</h3>
+                                                                        </div>
+                                                                        <div class="dsconts">
+                                                                            <div class="dtscroll">
+                                                                                Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hcol">
+                                                        <div class="vitemblock vbb">
+                                                            <div class="vvgrip">
+                                                                <div class="lcol">
+                                                                    <div class="thumb">
+                                                                        <img src="images/about/hh3.png" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="rcol">
+                                                                    <div class="decss">
+                                                                        <div class="dstitle">
+                                                                            <h3>Blue Sea Ecotourism Ho Tram</h3>
+                                                                        </div>
+                                                                        <div class="dsconts">
+                                                                            <div class="dtscroll">
+                                                                                Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- boxhome -->
+                <div class="boxhome">
+                    <div class="newshome">
+                        <div class="wrapper">
+                            <div class="hpnewshh">
+                                <div class="vhtitleal">
+                                    <h2>Tin tức nổi bật</h2>
+                                </div>
+                                <div class="vhcontsal">
+                                    <div class="tpnewshh">
+                                        <div class="hhlist">
+                                            <div class="itnewshh">
+                                                <div class="hhgrip">
+                                                    <div class="mcol">
+                                                        <div class="thumb">
+                                                            <a href="">
+                                                                <img src="images/main/news1.png" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hcol">
+                                                        <div class="vdate">22 Tháng 11, 2023</div>
+                                                    </div>
+                                                    <div class="bcol">
+                                                        <div class="decss">
+                                                            <div class="dsinfo">
+                                                                <div class="dstitle">
+                                                                    <h3><a href="">Blue Sea Ecotourism Ho Tram</a></h3>
+                                                                </div>
+                                                                <div class="dsconts">
+                                                                    Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                </div>
+                                                            </div>
+                                                            <div class="dsview">
+                                                                <a href="">
+                                                                    <span>Read Article</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="itnewshh">
+                                                <div class="hhgrip">
+                                                    <div class="mcol">
+                                                        <div class="thumb">
+                                                            <a href="">
+                                                                <img src="images/main/news2.png" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hcol">
+                                                        <div class="vdate">22 Tháng 11, 2023</div>
+                                                    </div>
+                                                    <div class="bcol">
+                                                        <div class="decss">
+                                                            <div class="dsinfo">
+                                                                <div class="dstitle">
+                                                                    <h3><a href="">Blue Sea Ecotourism Ho Tram</a></h3>
+                                                                </div>
+                                                                <div class="dsconts">
+                                                                    Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                </div>
+                                                            </div>
+                                                            <div class="dsview">
+                                                                <a href="">
+                                                                    <span>Read Article</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="itnewshh">
+                                                <div class="hhgrip">
+                                                    <div class="mcol">
+                                                        <div class="thumb">
+                                                            <a href="">
+                                                                <img src="images/main/news3.png" alt="">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hcol">
+                                                        <div class="vdate">22 Tháng 11, 2023</div>
+                                                    </div>
+                                                    <div class="bcol">
+                                                        <div class="decss">
+                                                            <div class="dsinfo">
+                                                                <div class="dstitle">
+                                                                    <h3><a href="">Blue Sea Ecotourism Ho Tram</a></h3>
+                                                                </div>
+                                                                <div class="dsconts">
+                                                                    Lorem ipsum dolor sit amet consectetur. Elit sem vestibulum sagittis pulvinar blandit semper. Est sed etiam hac aliquam sagittis consequat amet urna morbi. Mattis sit justo dui consectetur. Ac sit viverra fringilla vel.
+                                                                </div>
+                                                            </div>
+                                                            <div class="dsview">
+                                                                <a href="">
+                                                                    <span>Read Article</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hhview">
+                                            <div class="vvgrip">
+                                                <div class="lcol">
+                                                    <div class="vtitle">
+                                                        <h3>Xem tất cả tin tức</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="rcol">
+                                                    <div class="vlinks">
+                                                        <a href="">
+                                                            <span>Xem tất cả </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--==END - CONTENT==-->
+            <!--==BEGIN - FOOTER==-->
+            <div id="vh-footer">
+                <div class="vhtopfoot">
+                    <div class="wrapper">
+                        <div class="hptopfoot">
+                            <div class="grtop">
+                                <div class="mcol">
+                                    <div class="tplogofoot">
+                                        <div class="lgend">
+                                            <img src="images/logofoot.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hcol hidden-xs hidden-sm">
+                                    <div class="tplinksfoot">
+                                        <div class="lktitle">
+                                            <h3>Liên kết nhanh</h3>
+                                        </div>
+                                        <div class="lkconts">
+                                            <ul>
+                                                <li><a href="about.html">Về chúng tôi</a></li>
+                                                <li><a href="services.html">Dịch vụ</a></li>
+                                                <li><a href="project.html">Dự án</a></li>
+                                                <li><a href="">Blog</a></li>
+                                                <li><a href="faq.html">FAQs</a></li>
+                                                <li><a href="">Liên hệ chúng tôi</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bcol">
+                                    <div class="tpbotfootma">
+                                        <div class="magrip">
+                                            <div class="vvcol">
+                                                <div class="mmgrip">
+                                                    <div class="bacol">
+                                                        <div class="tpaddrefoot">
+                                                            <div class="dcttile">
+                                                                <h3>CÔNG TY TNHH FORG ARCHITECTS</h3>
+                                                            </div>
+                                                            <div class="dcconts">
+                                                                MST: 0313 587 467
+                                                            </div>
+                                                        </div>
+                                                        <div class="tpaddrefoot">
+                                                            <div class="dcttile">
+                                                                <h3>VĂN PHÒNG ĐẠI DIỆN</h3>
+                                                            </div>
+                                                            <div class="dcconts">
+                                                                Toà nhà Rosana, số 60 Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1, Thành phố Hồ Chí Minh
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bbcol">
+                                                        <div class="tpinfosfoot">
+                                                            <div class="iftitle">
+                                                                <h3>Liên hệ</h3>
+                                                            </div>
+                                                            <div class="ifconts">
+                                                                <ul>
+                                                                    <li><a href="">+84 (0) 28 222 08 008</a></li>
+                                                                    <li><a href="">admin@forgarchitects.com</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tpaddrefoot">
+                                                            <div class="dcttile">
+                                                                <h3>CHI NHÁNH</h3>
+                                                            </div>
+                                                            <div class="dcconts">
+                                                                165 – 167 Nguyễn Thị Thập, Phường Tân Hưng, Quận 7, Thành phố Hồ Chí Minh.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vvcol">
+                                                <div class="mmgrip">
+                                                    <div class="bccol">
+                                                        <div class="tpsociafoot">
+                                                            <div class="sctitle">
+                                                                <h3>Mạng xã hội</h3>
+                                                            </div>
+                                                            <div class="scconts">
+                                                                <ul>
+                                                                    <li><a href=""><img src="images/isoc1.png" alt=""></a></li>
+                                                                    <li><a href=""><img src="images/isoc2.png" alt=""></a></li>
+                                                                    <li><a href=""><img src="images/isoc3.png" alt=""></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="bdcol">
+                                                        <div class="tpformsfoot">
+                                                            <div class="frtitle">
+                                                                <h3>Hoặc bạn cần chúng tôi liên hệ cho bạn?</h3>
+                                                            </div>
+                                                            <div class="frconts">
+                                                                <form action="">
+                                                                    <div class="ctpon">
+                                                                        <input type="text" name="" id="" placeholder="Nhập email liên hệ">
+                                                                        <button>
+                                                                            <span>Gửi</span>
+                                                                            <span><img src="images/send.png" alt=""></span>
+                                                                        </button>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vhbotfoot">
+                    <div class="wrapper">
+                        <div class="hpbotfoot">
+                            <div class="tpbotfooth">
+                                © Copy Right 2023
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--==END - FOOTER==-->
+        </div>
+    </div>
+    <!--==BEGIN MENUMB==-->
+    <div class="menu_mobile">
+        <div class="divmm">
+            <div class="mmContent">
+                <div class="mmMenu">
+                    <div class="mmtool">
+                        <div class="mmsearch">
+                            <form name="formSearch" method="POST" action="#" class="box_search">
+                                <input name="keyword" id="keyword" type="text" class="text_search" placeholder="Tìm kiếm..." value="">
+                                <button id="do_submit" name="do_submit" type="submit" value=""><span class="fa fa-search"></span></button>
+                                <input name="do_search" value="1" type="hidden">
+                                <div class="clear"></div>
+                            </form>
+                        </div>
+                        <div class="mmphones">
+                            <div class="itphonehead">
+                                <a href="">
+                                    <span class="vicon"><img src="images/iphone.svg" alt=""></span>
+                                    <span class="vtext">Liên hệ chúng tôi</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="mmMain">
+                        <li class="current"><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="about.html">Về chúng tôi</a></li>     
+                        <li><a href="services.html">Dịch vụ</a></li> 
+                        <li><a href="project.html">Dự án</a></li> 
+                        <li><a href="">Blog</a></li> 
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="working_space.html">Không gian làm việc</a></li>
+                    </ul>
+                </div>
+                <div class="close-mmenu">
+                    <span></span>
+                </div>
+            </div>
+            <div class="divmmbg"></div>
+        </div>
+    </div>
+    <!--==BEGIN MENUMB==-->
+</body>
+</html>

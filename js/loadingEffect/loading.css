@@ -1,0 +1,192 @@
+.vnt-loading{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	-webkit-transition: all 0.4s linear 4s;
+	-o-transition: all 0.4s linear 4s;
+	transition: all 0.4s linear 4s;
+}
+.vnt-loading:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50%;
+	background: #fff;
+	-webkit-transition: all 0.4s linear 4s;
+	-o-transition: all 0.4s linear 4s;
+	transition: all 0.4s linear 4s;
+}
+.vnt-loading:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50%;
+	background: #fff;
+	-webkit-transition: all 0.4s linear 4s;
+	-o-transition: all 0.4s linear 4s;
+	transition: all 0.4s linear 4s;
+} 
+.vnt-loading .img{
+	position: absolute;
+	max-width: 350px;
+	padding: 20px;
+	width: 100%;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+    z-index: 1;
+}
+.vnt-loading .img svg .st0 {
+    -webkit-transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    -o-transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    stroke: #2E358F;
+    stroke-dashoffset: 5000;
+    stroke-dasharray: 4000;
+    stroke-width: 0px;
+    fill:transparent;
+    opacity: 0;
+}
+.vnt-loading .img svg .st1{
+    -webkit-transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    -o-transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    stroke: #F58220;
+    stroke-dashoffset: 5000;
+    stroke-dasharray: 4000;
+    stroke-width: 1px;
+    fill:transparent;
+    opacity: 0;
+}
+.vnt-loading .img svg .st2{
+    -webkit-transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    -o-transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    stroke: #D1D3D4;
+    stroke-dashoffset: 5000;
+    stroke-dasharray: 4000;
+    stroke-width: 1px;
+    fill:transparent;
+    opacity: 0;
+}
+.vnt-loading .img svg .st3{
+    -webkit-transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    -o-transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    stroke: #BABABC;
+    stroke-dashoffset: 5000;
+    stroke-dasharray: 4000;
+    stroke-width: 1px;
+    fill:transparent;
+    opacity: 0;
+}
+.vnt-loading .img svg .st4{
+    -webkit-transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    -o-transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    transition: stroke-dashoffset 2.5s linear, stroke-dasharray 2.5s linear, fill 0.2s 2.5s linear, opacity 0.3s linear;
+    stroke: #721011;
+    stroke-dashoffset: 5000;
+    stroke-dasharray: 4000;
+    stroke-width: 1px;
+    fill:transparent;
+    opacity: 0;
+}
+/*===================================================================================*/
+/*===================================================================================*/
+/*===================================================================================*/
+/*===================================================================================*/
+body.animsition.show-load .vnt-loading{
+	pointer-events: none;
+	opacity: 0;
+	visibility: hidden;
+}
+body.animsition.show-load .vnt-loading:after,
+body.animsition.show-load .vnt-loading:before{
+	height: 0;
+}
+body.animsition.show-load .vnt-loading .img svg .st0{
+	stroke-dashoffset: 0;
+	fill:#2E358F;
+	opacity: 1;
+	stroke-width: 1px;
+}
+body.animsition.show-load .vnt-loading .img svg .st1{
+	stroke-dashoffset: 0;
+	fill:#F58220;
+	opacity: 1;
+	stroke-width: 2px;
+}
+body.animsition.show-load .vnt-loading .img svg .st2{
+	stroke-dashoffset: 0;
+	fill:#D1D3D4;
+	opacity: 1;
+	stroke-width: 2px;
+}
+body.animsition.show-load .vnt-loading .img svg .st3{
+	stroke-dashoffset: 0;
+	fill:#BABABC;
+	opacity: 1;
+	stroke-width: 2px;
+}
+body.animsition.show-load .vnt-loading .img svg .st4{
+	stroke-dashoffset: 0;
+	fill:#721011;
+	opacity: 1;
+	stroke-width: 1px;
+}
+.vnt-loading .decsLogo{
+	position: absolute;
+    max-width: 400px;
+    padding: 20px;
+    width: 100%;
+    left: 50%;
+	top: calc(50% + 150px);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+	z-index: 1;
+	text-align: center;
+	color: #22297a;
+	font-size: 24px;
+    line-height: 40px;
+	text-transform: uppercase;
+	font-weight: 600;
+
+}
+.vnt-loading .decsLogo span{
+	opacity: 0;
+	-webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	display: inline-block;
+	transform: translateX(30px);
+}
+.vnt-loading .decsLogo span:nth-child(1){
+	transition-delay: 0.8s;
+}
+.vnt-loading .decsLogo span:nth-child(2){
+	transition-delay: 1s;
+}
+.vnt-loading .decsLogo span:nth-child(3){
+	transition-delay: 1.2s;
+}
+body.animsition.show-load .vnt-loading .decsLogo span{
+	opacity: 1;
+	transform: translateX(0px);
+}
+@media all and (max-width: 991px){
+	.vnt-loading .img{
+		max-width: 250px;
+	}
+}

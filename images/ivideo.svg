@@ -1,0 +1,10 @@
+<svg class="playOutline" width="42" height="48" viewBox="0 0 43 49" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style type="text/css">
+		path{stroke: #000000;fill: none;stroke: #000000;stroke-miterlimit: 10;stroke-width: 3px;fill-rule: evenodd;}
+		.i_e245{fill: none;stroke: #b7202f;stroke-miterlimit: 10;stroke-width: 3px;fill-rule: evenodd;stroke-dasharray: 80;-webkit-animation: playStrokeAnimation 10s linear infinite;animation: playStrokeAnimation 10s linear infinite;}
+		@-webkit-keyframes playStrokeAnimation{from{stroke-dashoffset:500;}to{stroke-dashoffset:0;}}
+		@keyframes playStrokeAnimation{from{stroke-dashoffset:500;}to{stroke-dashoffset:0;}}
+	</style>
+	<path d="M1.5,45V4.1A2.5,2.5,0,0,1,5.4,1.9L40.2,22.3a2.6,2.6,0,0,1,0,4.4L5.3,47.2A2.5,2.5,0,0,1,1.5,45Z"></path>
+    <path class="i_e245" d="M1.5,45V4.1A2.5,2.5,0,0,1,5.4,1.9L40.2,22.3a2.6,2.6,0,0,1,0,4.4L5.3,47.2A2.5,2.5,0,0,1,1.5,45Z"></path>
+</svg>
