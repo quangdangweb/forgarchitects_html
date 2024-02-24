@@ -168,6 +168,12 @@ $(document).ready(function(){
         } else {
             $("#vh-header").removeClass("hdchange");
         }
+        if(offsetW > (vbanner / 2)){
+            $("#vh-header").removeClass("hdmain");
+        }
+        else{
+            $("#vh-header:not(.notfix)").addClass("hdmain");
+        }
     });
     // 
     // $('.abouthome .is-masking').each(function(){
@@ -217,5 +223,5 @@ $(document).ready(function(){
             }
         });
     })
-    
+
 })

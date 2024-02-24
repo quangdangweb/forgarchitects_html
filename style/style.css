@@ -736,11 +736,11 @@ select{
 .tpsubmnhead > ul > li.current > a, .tpsubmnhead > ul > li:hover > a{
     color: rgba(21, 21, 53, 1);
 }
-.tpsubmnhead > ul > li ul{
+.tpsubmnhead > ul > li > ul{
     position: absolute;
-    top: calc(100% + 20px);
+    top: calc(100% + 32px);
     left: 0;
-    width: 240px;
+    width: 270px;
     background-color: #fff;
     opacity: 0;
     pointer-events: none;
@@ -748,15 +748,41 @@ select{
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
 }
+.tpsubmnhead > ul > li ul li a:hover{
+    padding-left: 22px;
+}
+.tpsubmnhead > ul > li li{
+    position: relative;
+}
+.tpsubmnhead > ul > li li a{
+    font-weight: 500;
+}
+.tpsubmnhead > ul > li ul ul{
+    position: absolute;
+    top: 0;
+    left: calc(100% + 1px);
+    width: 100%;
+    background-color: #fff;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    box-shadow: 0 5px 10px 0 rgba(194, 194, 255, 0.4);
+}
 .tpsubmnhead > ul > li ul::before{
     content: '';
     position: absolute;
-    top: -20px;
+    top: -32px;
     left: 0;
     width: 100%;
-    height: 20px;
+    height: 32px;
 }
-.tpsubmnhead > ul > li:hover ul{
+.tpsubmnhead > ul > li:hover > ul{
+    opacity: 1;
+    pointer-events: auto;
+}
+.tpsubmnhead > ul > li ul li:hover ul{
     opacity: 1;
     pointer-events: auto;
 }

@@ -13,6 +13,18 @@
 .hdfixed.hdchange .vhheader{
     transform: unset;
 }
+.hdmain .tpsubmnhead > ul > li > ul{
+    top: unset;
+    bottom: calc(100% + 32px);
+}
+.hdmain .tpsubmnhead > ul > li ul::before{
+    top: unset;
+    bottom: -32px;
+}
+.hdmain .tpsubmnhead > ul > li ul ul{
+    top: unset;
+    bottom: 0;
+}
 /* <=== header ===> */
 
 #vh-content{
@@ -41,6 +53,71 @@
 }
 .slbannerhh .banvdimg img{
     display: none;
+}
+.slbannerhh .bancapts{
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+} 
+.slbannerhh .csinner{
+    max-width: 50%;
+}
+.slbannerhh .cstitle, .slbannerhh .csviews{
+    opacity: 0;
+    transform: translateX(-150px);
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.slbannerhh .csconts{
+    opacity: 0;
+    transform: translateX(150px);
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.slbannerhh .slick-current .cstitle, .slbannerhh .slick-current .csconts, .slbannerhh .slick-current .csviews{
+    transform: unset;
+    opacity: 1;
+}
+.slbannerhh .slick-current .cstitle{
+    transition-delay: 0.2s;
+}
+.slbannerhh .slick-current .csconts{
+    transition-delay: 0.4s;
+}
+.slbannerhh .slick-current .csviews{
+    transition-delay: 0.6s;
+}
+.slbannerhh .cstitle{
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+}
+.slbannerhh .csconts{
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+.slbannerhh .csviews a{
+    display: inline-block;
+    color: #1A1A1A;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 11px 30px;
+    border-radius: 30px;
+}
+.slbannerhh .csviews a:hover{
+    background-color: #151535;
+    color: #fff;
 }
 /* <=== vh-banner ===> */
 
@@ -920,6 +997,9 @@
     .slbannerhh .banvdimg{
         height: 0;
         padding-top: 37.106%;
+    }
+    .slbannerhh .bancapts{
+        display: none;
     }
     /* <=== vh-banner ===> */
 

@@ -137,6 +137,9 @@ $(document).ready(function() {
     setlazy($(".tpaboutbb .bbtitle, .hpprojecthh .hhtitle, .hpfaqpg .fqtitle, .tpwspacegg .ggtitle, .tpwspaceam .matitle, .tpwspacebb .bbtitle, .tpwspacecc .cctitle, .tpwspacedd .ddttile, .tpwspaceem .emtitle, .tpwspacefma .mftitle, .tpwspacefh .fhtitle"),'fadeIn','0.1');
     setlazy($(".tpprojectha, .hpprojectbb .bbrow, .itprojectmm, .itfaqmb, .tpfaqma, .tpwspacegg .vvrow, .tpwspaceam .maconts, .tpwspacebb .bbconts, .tpwspacecc .cccapts, .tpwspacedd .ddcapts, .tpwspaceem .emconts, .tpwspacefma .mfconts"),'fadeIn','0.2');
     setlazy($(".tpwspaceda, .tpwspaceeh .ehrow, .tpwspacefmb"),'fadeIn','0.3');
+    setlazy($(".slbannerhh .cstitle"),'fadeInLeft','0.2');
+    setlazy($(".slbannerhh .csconts"),'fadeInRight','0.4');
+    setlazy($(".slbannerhh .csviews"),'fadeInLeft','0.6');
     // BIGIN LAZYLOADING
     var isMobile = false;
     if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent)
